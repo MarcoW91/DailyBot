@@ -1,0 +1,92 @@
+{
+  "name": "NewBot",
+  "description": "Blank Process",
+  "main": "Inventory2.xaml",
+  "dependencies": {
+    "UiPath.Activities.RuntimeGovernance": "1.1.6",
+    "UiPath.ComplexScenarios.Activities": "1.3.0",
+    "UiPath.ConnectionClient": "1.4.1",
+    "UiPath.Credentials.Activities": "[2.0.0]",
+    "UiPath.Database.Activities": "[1.7.1]",
+    "UiPath.DocumentProcessing.Contracts": "1.17.1",
+    "UiPath.Excel.Activities": "[2.16.0]",
+    "UiPath.FormActivityLibrary": "2.0.2",
+    "UiPath.FormActivityLibrary.Contracts": "2.0.2",
+    "UiPath.Mail.Activities": "[1.18.1]",
+    "UiPath.Platform": "22.10.2",
+    "UiPath.System.Activities": "[22.10.3]",
+    "UiPath.UIAutomation.Activities": "[22.10.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "AP Overdue Report.xaml",
+      "uniqueId": "9a22c49c-b81a-4441-94b9-63879225823a",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MainBot1 - Copy.xaml",
+      "uniqueId": "f2c86143-f590-486c-b0df-17d4f2198a1b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "MainBot1.xaml",
+      "uniqueId": "6c604cd6-e4a8-4e64-a7d0-a7895577fcab",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Inventory2.xaml",
+      "uniqueId": "daf07b03-2e35-4d0b-963b-88f9174e2bc4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Inventory.xaml",
+      "uniqueId": "2fb5f191-a0d4-4747-8551-51ba4420c8ba",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
