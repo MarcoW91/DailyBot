@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="All_Reports" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1083,2359" sap2010:WorkflowViewState.IdRef="Both_OB_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/credentials" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="All_Reports" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1238,2927" sap2010:WorkflowViewState.IdRef="Both_OB_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/credentials" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="54">
       <x:String>System.Activities</x:String>
@@ -125,7 +125,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Check for Reports" sap:VirtualizedContainerService.HintSize="442,2294" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Check for Reports" sap:VirtualizedContainerService.HintSize="504,4263" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="FileFound" />
       <Variable x:TypeArguments="x:Boolean" Name="InvDataLoad" />
@@ -242,7 +242,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SHIPMENTMorning.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="SHIPMENTMorning.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="SHIPMENTMorning.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="SHIPMENTMorning.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="SAPOpen">[SAPOpen]</InOutArgument>
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="LoggedIn">[LoggedIn]</InOutArgument>
@@ -257,17 +257,17 @@
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="RetrievingData2">[RetrievingData2]</InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <Sequence DisplayName="OB SAP" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_409">
+    <Sequence DisplayName="OB SAP" sap:VirtualizedContainerService.HintSize="462,1491" sap2010:WorkflowViewState.IdRef="Sequence_409">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="400,61" sap2010:WorkflowViewState.IdRef="RetryScope_16">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="504,663" sap2010:WorkflowViewState.IdRef="Sequence_352">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="678,10441" sap2010:WorkflowViewState.IdRef="Sequence_352">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3320,7 +3320,7 @@
       <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="400,61" sap2010:WorkflowViewState.IdRef="RetryScope_17">
         <ui:RetryScope.ActivityBody>
           <ActivityAction>
-            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="851,32446" sap2010:WorkflowViewState.IdRef="Sequence_402">
+            <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="851,32414" sap2010:WorkflowViewState.IdRef="Sequence_402">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -6067,7 +6067,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
         <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="338,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_31" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
-        <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="Anna.Wieczorek@praesidiad.com;Agata.Kaczmarczyk@praesidiad.com;Dawid.Stepien@praesidiad.com;Anna.Sorek@praesidiad.com;Maria.Wilczek@praesidiad.com;Dwayne.David@praesidiad.com;michalina.pietrek@praesidiad.com;Samuel.Read@praesidiad.com;Xymena.Dubiel@praesidiad.com;bob.ohagan@praesidiad.com;Joanna.Bugajska@praesidiad.com;Patrycja.Frankowska@praesidiad.com;Patrycja.Bochenek@praesidiad.com;fen.cosyns@praesidiad.com;jaroslaw.gruszka@praesidiad.com;maciej.kokocinski@praesidiad.com;Natalia.Smolin@praesidiad.com;frankie.descamps@praesidiad.com;beata.blaszczyk@praesidiad.com;Paulina.Bak@praesidiad.com;Aleksandra.Kosiorowska@praesidiad.com;heinz.bongartz@praesidiad.com;Roksana.Belzyt@praesidiad.com;piera.digiacomo@praesidiad.com;federica.canulli@praesidiad.com;rino.diegidio@praesidiad.com;carolina.ruiz@praesidiad.com;marija.sokol@praesidiad.com;eva.vlasakova@praesidiad.com;Alzbeta.Ondreasova@praesidiad.com;sumeet.rajpal@praesidiad.com;peter.rudd@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,292" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="False" Name="Daily SAP Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily SAP OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.Willigenburg@praesidiad.com;Igor.Talarczyk@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;alex.lever@praesidiad.com;Piyush.Jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;zuzanna.robenek@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;wouter.goeminne@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; bernd.platvoetz@praesidiad.com; cenk.goksel@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com">
+        <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="Anna.Wieczorek@praesidiad.com;Agata.Kaczmarczyk@praesidiad.com;Dawid.Stepien@praesidiad.com;Anna.Sorek@praesidiad.com;Maria.Wilczek@praesidiad.com;Dwayne.David@praesidiad.com;michalina.pietrek@praesidiad.com;Samuel.Read@praesidiad.com;Xymena.Dubiel@praesidiad.com;bob.ohagan@praesidiad.com;Joanna.Bugajska@praesidiad.com;Patrycja.Frankowska@praesidiad.com;Patrycja.Bochenek@praesidiad.com;fen.cosyns@praesidiad.com;jaroslaw.gruszka@praesidiad.com;maciej.kokocinski@praesidiad.com;Natalia.Smolin@praesidiad.com;frankie.descamps@praesidiad.com;beata.blaszczyk@praesidiad.com;Paulina.Bak@praesidiad.com;Aleksandra.Kosiorowska@praesidiad.com;heinz.bongartz@praesidiad.com;Roksana.Belzyt@praesidiad.com;piera.digiacomo@praesidiad.com;federica.canulli@praesidiad.com;rino.diegidio@praesidiad.com;carolina.ruiz@praesidiad.com;marija.sokol@praesidiad.com;eva.vlasakova@praesidiad.com;Alzbeta.Ondreasova@praesidiad.com;sumeet.rajpal@praesidiad.com;peter.rudd@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,292" sap2010:WorkflowViewState.IdRef="SendMail_2" IgnoreCRL="False" IsBodyHtml="False" Name="Daily SAP Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily SAP OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.Willigenburg@praesidiad.com;Igor.Talarczyk@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;alex.lever@praesidiad.com;Piyush.Jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;zuzanna.robenek@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;wouter.goeminne@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; bernd.platvoetz@praesidiad.com; cenk.goksel@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com; anna.ochojska@praesidiad.com; anna.michnik@praesidiad.com">
           <ui:SendMail.Files>
             <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
               <InArgument x:TypeArguments="x:String">["C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\Archive\AllFiles\OB_"&amp;now.ToString("dd.MM.yyyy")&amp;".xlsm"]</InArgument>
@@ -6078,7 +6078,7 @@
         <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="KillProcess_101" ProcessName="EXCEL" />
       </Sequence>
     </Sequence>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="OBIFS.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="OBIFS.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="OBIFS.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="OBIFS.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="ss:SecureString" x:Key="Setpwd">[Setpwd]</InOutArgument>
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="RetrievingData">[RetrievingData]</InOutArgument>
@@ -6086,10 +6086,10 @@
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="RetrievingData3">[RetrievingData3]</InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <Sequence DisplayName="OTC Call Sheet" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_645">
+    <Sequence DisplayName="OTC Call Sheet" sap:VirtualizedContainerService.HintSize="462,658" sap2010:WorkflowViewState.IdRef="Sequence_645">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -6191,7 +6191,7 @@
         </ui:SendMail.Files>
       </ui:SendMail>
     </Sequence>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DataGenerationPBIReports.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="DataGenerationPBIReports.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="DataGenerationPBIReports.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_11" UnSafe="False" WorkflowFileName="DataGenerationPBIReports.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InOutArgument x:TypeArguments="x:String" x:Key="Username">[Username]</InOutArgument>
         <InOutArgument x:TypeArguments="ss:SecureString" x:Key="Password">[Password]</InOutArgument>
@@ -6212,7 +6212,7 @@
         <InOutArgument x:TypeArguments="x:Boolean" x:Key="DataLoad">[DataLoad]</InOutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Inventory.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,61" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Inventory.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Inventory.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,61" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Inventory.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
@@ -6223,7 +6223,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <If Condition="[DateTime.Now.DayOfWeek.ToString=&quot;Monday&quot; or DateTime.Now.DayOfWeek.ToString=&quot;Wednesday&quot; or DateTime.Now.DayOfWeek.ToString=&quot;Friday&quot;]" DisplayName="Check if PPV is necessary" sap:VirtualizedContainerService.HintSize="400,61" sap2010:WorkflowViewState.IdRef="If_35">
+    <If Condition="[DateTime.Now.DayOfWeek.ToString=&quot;Monday&quot; or DateTime.Now.DayOfWeek.ToString=&quot;Wednesday&quot; or DateTime.Now.DayOfWeek.ToString=&quot;Friday&quot;]" DisplayName="Check if PPV is necessary" sap:VirtualizedContainerService.HintSize="462,61" sap2010:WorkflowViewState.IdRef="If_35">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -23325,7 +23325,7 @@
         </Sequence>
       </If.Else>
     </If>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PPV DE.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PPV DE.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="PPV DE.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="PPV DE.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>
@@ -23336,7 +23336,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InvokeWorkflowFile>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Wire Report.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="400,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Wire Report.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Wire Report.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="462,122" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Wire Report.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <scg:Dictionary x:TypeArguments="x:String, Argument" />
       </ui:InvokeWorkflowFile.Arguments>

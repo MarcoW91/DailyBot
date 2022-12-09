@@ -5,7 +5,7 @@
     <x:Property Name="RetrievingData2" Type="InOutArgument(x:Boolean)" />
     <x:Property Name="RetrievingData3" Type="InOutArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1083,9791</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>758,1512</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="70">
@@ -111,7 +111,7 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OB_IFS" sap:VirtualizedContainerService.HintSize="768,9726" sap2010:WorkflowViewState.IdRef="Sequence_2830">
+  <Sequence DisplayName="OB_IFS" sap:VirtualizedContainerService.HintSize="768,1447" sap2010:WorkflowViewState.IdRef="Sequence_2830">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="RetrievingData" />
       <Variable x:TypeArguments="x:String" Name="Datum" />
@@ -128,10 +128,10 @@
     </sap:WorkflowViewStateService.ViewState>
     <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="726,142" sap2010:WorkflowViewState.IdRef="KillProcess_623" ProcessName="Ifs.Fnd.Explorer.exe" />
     <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="726,142" sap2010:WorkflowViewState.IdRef="KillProcess_624" ProcessName="msedge" />
-    <Sequence DisplayName="Retrieve Data" sap:VirtualizedContainerService.HintSize="726,5610" sap2010:WorkflowViewState.IdRef="Sequence_2823">
+    <Sequence DisplayName="Retrieve Data" sap:VirtualizedContainerService.HintSize="726,90" sap2010:WorkflowViewState.IdRef="Sequence_2823">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -574,10 +574,10 @@
         </sap:WorkflowViewStateService.ViewState>
       </ui:OpenBrowser>
     </Sequence>
-    <Sequence DisplayName="Update OB IFS" sap:VirtualizedContainerService.HintSize="726,2849" sap2010:WorkflowViewState.IdRef="Sequence_2827">
+    <Sequence DisplayName="Update OB IFS" sap:VirtualizedContainerService.HintSize="726,90" sap2010:WorkflowViewState.IdRef="Sequence_2827">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -650,7 +650,7 @@
       <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="KillProcess_626" ProcessName="iexplore" />
     </Sequence>
     <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="726,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_153" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
-    <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="anna.wieczorek@praesidiad.com;agata.kaczmarczyk@praesidiad.com;maria.wilczek@praesidiad.com;dwayne.david@praesidiad.com;michalina.pietrek@praesidiad.com;samuel.read@praesidiad.com;xymena.dubiel@praesidiad.com;bob.ohagan@praesidiad.com;joanna.bugajska@praesidiad.com;michael.doering@praesidiad.com;patrycja.frankowska@praesidiad.com;patrycja.bochenek@praesidiad.com;fen.cosyns@praesidiad.com;natalia.smolin@praesidiad.com;maria.wilczek@praesidiad.com;roksana.belzyt@praesidiad.com;anna.rosolek@praesidiad.com;michalina.pietrek@praesidiad.com;heinz.bongartz@praesidiad.com;karina.szczygiel@praesidiad.com;alzbeta.ondreasova@praesidiad.com;aleksandra.kosiorowska@praesidiad.com;marija.sokol@praesidiad.com;jaroslaw.gruszka@praesidiad.com;peter.rudd@praesidiad.com;zuzanna.robenek@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;patryk.jagodzinski@praesidiad.com; mateusz.bodinek@praesidiad.com; krzysztof.koliszczak@praesidiad.com; pawel.woch@praesidiad.com; robert.mauzagen@praesidiad.com; andrzej.rozowski@praesidiad.com; maciej.rogowski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="726,292" sap2010:WorkflowViewState.IdRef="SendMail_19" IgnoreCRL="False" IsBodyHtml="False" Name="Daily IFS Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily IFS OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="igor.talarczyk@praesidiad.com;marco.willigenburg@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;alex.lever@praesidiad.com;piyush.jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; cenk.goksel@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com">
+    <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="anna.wieczorek@praesidiad.com;agata.kaczmarczyk@praesidiad.com;maria.wilczek@praesidiad.com;dwayne.david@praesidiad.com;michalina.pietrek@praesidiad.com;samuel.read@praesidiad.com;xymena.dubiel@praesidiad.com;bob.ohagan@praesidiad.com;joanna.bugajska@praesidiad.com;michael.doering@praesidiad.com;patrycja.frankowska@praesidiad.com;patrycja.bochenek@praesidiad.com;fen.cosyns@praesidiad.com;natalia.smolin@praesidiad.com;maria.wilczek@praesidiad.com;roksana.belzyt@praesidiad.com;anna.rosolek@praesidiad.com;michalina.pietrek@praesidiad.com;heinz.bongartz@praesidiad.com;karina.szczygiel@praesidiad.com;alzbeta.ondreasova@praesidiad.com;aleksandra.kosiorowska@praesidiad.com;marija.sokol@praesidiad.com;jaroslaw.gruszka@praesidiad.com;peter.rudd@praesidiad.com;zuzanna.robenek@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;patryk.jagodzinski@praesidiad.com; mateusz.bodinek@praesidiad.com; krzysztof.koliszczak@praesidiad.com; pawel.woch@praesidiad.com; robert.mauzagen@praesidiad.com; andrzej.rozowski@praesidiad.com; maciej.rogowski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="726,292" sap2010:WorkflowViewState.IdRef="SendMail_19" IgnoreCRL="False" IsBodyHtml="False" Name="Daily IFS Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily IFS OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="igor.talarczyk@praesidiad.com;marco.willigenburg@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;alex.lever@praesidiad.com;piyush.jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; cenk.goksel@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com; anna.ochojska@praesidiad.com; anna.michnik@praesidiad.com">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
           <InArgument x:TypeArguments="x:String">["C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\OB_IFS\Archive\OB_IFS_"&amp;Now.ToString("dd.MM.yyyy")&amp;".xlsm"]</InArgument>
