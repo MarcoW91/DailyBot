@@ -12,7 +12,7 @@
     <x:Property Name="RetrievingData" Type="InOutArgument(x:Boolean)" />
     <x:Property Name="RetrievingData2" Type="InOutArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1083,9563</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1083,1363</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="80">
@@ -122,7 +122,7 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="SHIPMENT Afternoon" sap:VirtualizedContainerService.HintSize="764,9498" sap2010:WorkflowViewState.IdRef="Sequence_963">
+  <Sequence DisplayName="SHIPMENT Afternoon" sap:VirtualizedContainerService.HintSize="504,1298" sap2010:WorkflowViewState.IdRef="Sequence_963">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="Exists" />
       <Variable x:TypeArguments="x:Boolean" Name="ExcelMatLoad" />
@@ -134,7 +134,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[convert.ToDateTime(DateTime.Now()).ToString(&quot;HHmmss&quot;)&lt;&quot;123000&quot;]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="722,61" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_371">
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[convert.ToDateTime(DateTime.Now()).ToString(&quot;HHmmss&quot;)&lt;&quot;123000&quot;]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="462,61" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_371">
       <ui:InterruptibleDoWhile.Body>
         <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,187" sap2010:WorkflowViewState.IdRef="Sequence_878">
           <sap:WorkflowViewStateService.ViewState>
@@ -152,7 +152,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:InterruptibleDoWhile>
-    <Sequence DisplayName="SAP Shipment Report" sap:VirtualizedContainerService.HintSize="722,90" sap2010:WorkflowViewState.IdRef="Sequence_947">
+    <Sequence DisplayName="SAP Shipment Report" sap:VirtualizedContainerService.HintSize="462,90" sap2010:WorkflowViewState.IdRef="Sequence_947">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -970,17 +970,17 @@
       <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="510,132" sap2010:WorkflowViewState.IdRef="KillProcess_105" ProcessName="saplogon" />
       <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="510,132" sap2010:WorkflowViewState.IdRef="KillProcess_106" ProcessName="EXCEL" />
     </Sequence>
-    <Sequence DisplayName="IFS Shipment Report" sap:VirtualizedContainerService.HintSize="722,8399" sap2010:WorkflowViewState.IdRef="Sequence_961">
+    <Sequence DisplayName="IFS Shipment Report" sap:VirtualizedContainerService.HintSize="462,212" sap2010:WorkflowViewState.IdRef="Sequence_961">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="IFS" sap:VirtualizedContainerService.HintSize="659,8277" sap2010:WorkflowViewState.IdRef="Sequence_960">
+      <Sequence DisplayName="IFS" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_960">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
@@ -1494,16 +1494,16 @@
         <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="596.8,144" sap2010:WorkflowViewState.IdRef="KillProcess_110" ProcessName="msedge" />
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Send Igor Mail" sap:VirtualizedContainerService.HintSize="721.6,737.6" sap2010:WorkflowViewState.IdRef="Sequence_962">
+    <Sequence DisplayName="Send Igor Mail" sap:VirtualizedContainerService.HintSize="462,725" sap2010:WorkflowViewState.IdRef="Sequence_962">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="337.6,144" sap2010:WorkflowViewState.IdRef="KillProcess_314" ProcessName="EXCEL" />
-      <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="337.6,90.4" sap2010:WorkflowViewState.IdRef="GetSecureCredential_198" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
-      <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good afternoon everyone,&#xA;&#xA;In the attachment you can find the current status of today’s shipment report.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="anna.wieczorek@praesidiad.com; bob.ohagan@praesidiad.com; michael.doering@praesidiad.com; michael.dixon@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="337.6,300" sap2010:WorkflowViewState.IdRef="SendMail_7" IgnoreCRL="False" IsBodyHtml="False" Name="Daily Shipment Report" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily Shipment Report Afternoon &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.willigenburg@praesidiad.com; igor.talarczyk@praesidiad.com; alicja.kordaczka-matysiak@praesidiad.com; michalina.pietrek@praesidiad.com; samuel.read@praesidiad.com; corinne.boulle@praesidiad.com; geoffrey.verheyen@praesidiad.com; bianca.verhulst@praesidiad.com; karolina.sidoruk@praesidiad.com; koen.vercruysse@praesidiad.com; xymena.dubiel@praesidiad.com; maria.wilczek@praesidiad.com; marija.sokol@praesidiad.com; heinz.bongartz@praesidiad.com; natalia.smolin@praesidiad.com; iwona.paczko@praesidiad.com; Piyush.Jutha@praesidiad.com; Peter.Rudd@praesidiad.com; Kamlesh.Mistry@praesidiad.com; rino.diegidio@praesidiad.com;dwayne.david@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com">
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="KillProcess_314" ProcessName="EXCEL" />
+      <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="338,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_198" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
+      <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good afternoon everyone,&#xA;&#xA;In the attachment you can find the current status of today’s shipment report.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="anna.wieczorek@praesidiad.com; bob.ohagan@praesidiad.com; michael.doering@praesidiad.com; michael.dixon@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,292" sap2010:WorkflowViewState.IdRef="SendMail_7" IgnoreCRL="False" IsBodyHtml="False" Name="Daily Shipment Report" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily Shipment Report Afternoon &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.willigenburg@praesidiad.com; igor.talarczyk@praesidiad.com; alicja.kordaczka-matysiak@praesidiad.com; michalina.pietrek@praesidiad.com; samuel.read@praesidiad.com; corinne.boulle@praesidiad.com; geoffrey.verheyen@praesidiad.com; bianca.verhulst@praesidiad.com; karolina.sidoruk@praesidiad.com; koen.vercruysse@praesidiad.com; xymena.dubiel@praesidiad.com; maria.wilczek@praesidiad.com; marija.sokol@praesidiad.com; heinz.bongartz@praesidiad.com; natalia.smolin@praesidiad.com; iwona.paczko@praesidiad.com; Piyush.Jutha@praesidiad.com; Peter.Rudd@praesidiad.com; Kamlesh.Mistry@praesidiad.com; rino.diegidio@praesidiad.com;dwayne.david@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com; anna.michnik@praesidiad.com">
         <ui:SendMail.Files>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">["C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\planned "&amp;DateTime.Now.ToString("MMyyyy")&amp;" afternoon.xlsm"]</InArgument>
