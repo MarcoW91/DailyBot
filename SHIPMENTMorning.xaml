@@ -12,7 +12,7 @@
     <x:Property Name="RetrievingData" Type="InOutArgument(x:Boolean)" />
     <x:Property Name="RetrievingData2" Type="InOutArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1083,7929</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1084,17396.8</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="76">
@@ -127,24 +127,24 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="SHIPMENT Morning" sap:VirtualizedContainerService.HintSize="762,7864" sap2010:WorkflowViewState.IdRef="Sequence_2798">
+  <Sequence DisplayName="SHIPMENT Morning" sap:VirtualizedContainerService.HintSize="765.6,17332" sap2010:WorkflowViewState.IdRef="Sequence_2798">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="SAP Shipment Report" sap:VirtualizedContainerService.HintSize="720,90" sap2010:WorkflowViewState.IdRef="Sequence_2830">
+    <Sequence DisplayName="SAP Shipment Report" sap:VirtualizedContainerService.HintSize="722.4,9960.8" sap2010:WorkflowViewState.IdRef="Sequence_2830">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-          <x:Boolean x:Key="IsPinned">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="KillProcess_430" ProcessName="EXCEL" />
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="KillProcess_431" ProcessName="msedge" />
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="KillProcess_432" ProcessName="saplogon" />
-      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3925" Key="d" KeyModifiers="Win">
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_430" Process="{x:Null}" ProcessName="EXCEL" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_431" Process="{x:Null}" ProcessName="msedge" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_432" Process="{x:Null}" ProcessName="saplogon" />
+      <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="512,133.6" sap2010:WorkflowViewState.IdRef="SendHotkey_3925" Key="d" KeyModifiers="Win" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}">
         <ui:SendHotkey.Target>
           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="cd42a822-0433-4995-8272-e3d007f20def">
             <ui:Target.TimeoutMS>
@@ -156,16 +156,16 @@
           </ui:Target>
         </ui:SendHotkey.Target>
       </ui:SendHotkey>
-      <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SAP Front End\SAP Logon" sap:VirtualizedContainerService.HintSize="512,97" sap2010:WorkflowViewState.IdRef="StartProcess_275" />
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[SAPOpen&lt;&gt;True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,381" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_866">
+      <ui:StartProcess Arguments="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Start Process" FileName="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SAP Front End\SAP Logon" sap:VirtualizedContainerService.HintSize="512,88" sap2010:WorkflowViewState.IdRef="StartProcess_275" StartType="{x:Null}" Timeout="{x:Null}" WorkingDirectory="{x:Null}" />
+      <ui:InterruptibleDoWhile Condition="[SAPOpen&lt;&gt;True]" CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,364" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_866" MaxIterations="{x:Null}">
         <ui:InterruptibleDoWhile.Body>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,206" sap2010:WorkflowViewState.IdRef="Sequence_2821">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,196.8" sap2010:WorkflowViewState.IdRef="Sequence_2821">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:ImageFound DisplayName="Image Exists 'saplogon.exe SAP'" Found="[SAPOpen]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="ImageFound_659">
+            <ui:ImageFound ContinueOnError="{x:Null}" DisplayName="Image Exists 'saplogon.exe SAP'" Found="[SAPOpen]" sap:VirtualizedContainerService.HintSize="356.8,107.2" sap2010:WorkflowViewState.IdRef="ImageFound_659" Result="{x:Null}">
               <ui:ImageFound.Image>
                 <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGoAAAAQCAYAAAD+mOowAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIrSURBVFhH7Zc9cgIxDIVzi1yBlByBjhNQZYY+dAw9lHQMfShJwwm4ANdyLGML+a2s9VIku8MW32RsWdbPk7PJ2/vH2o30n1GogTAKNRBYqM+vn2rkBSN/QyaUNJRoPTc7uf355r4Tx5ObToR9snPLo7KPfueLm0u7JJw17P/EdHUV+SeubjmDs4uL34f8Jwe3YZ9mbZ2FMonBNovH3nwLQanJx6tvNBQAzQ9Fo5iFs71FyzPsgRhxeLlvJOT28PDxmELRXg3sU9FAEmC/2nkBb+En29DXuqvVVpjmbGrBXvKjfT8wS5+veqdBo8YQn/zppxQK1kp9rULhnqRhj43IksvsNDmx0NgAfjGYnJIsU7Jpk5liRBvnxk1r8QuxCjZal8AcZYw2YZT6nhaqaIuFpanlApMtaxxMrkiOphGfP6MUwvuyiVIM9EGb5SdtuC6Arylbtwkl40f/p4SyBMwIH81HQO1jy8mHZIXNagYWlsBpl1PcsIlmWH7PCNVo/P0+WfcdMQyWcJ6nvlF4rkj23OEFEbJoJbkipbO43+XV1PrhWqHxbULC/RhPrDEfjylUZ/xkZgmGgIWCCatZFqWzcjBoLV9KiCVsMjfLD/PW6pDU1NEQSonf5a8+DfNcbEbjaXtb+LWnfHN4+moKTISzMg4RfTMb3EcNSLbwL4Kwl/xov1ao2HDzNREoFO8p8SOZULXICwaL1fAewkK9AuEvSWNq+8xLCTVc1u4XMk195FQFRJIAAAAASUVORK5CYII=" />
               </ui:ImageFound.Image>
@@ -183,25 +183,25 @@
           </Sequence>
         </ui:InterruptibleDoWhile.Body>
       </ui:InterruptibleDoWhile>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'saplogon.exe SAP'" sap:VirtualizedContainerService.HintSize="512,571" sap2010:WorkflowViewState.IdRef="WindowScope_689" InformativeScreenshot="a7fab36953f89a8879fe4fee3b0d6ef7" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 740' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'saplogon.exe SAP'" sap:VirtualizedContainerService.HintSize="512,550" sap2010:WorkflowViewState.IdRef="WindowScope_689" InformativeScreenshot="a7fab36953f89a8879fe4fee3b0d6ef7" SearchScope="{x:Null}" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='SAP Logon 740' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,415" sap2010:WorkflowViewState.IdRef="Sequence_2822">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,403" sap2010:WorkflowViewState.IdRef="Sequence_2822">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:GetActiveWindow ApplicationWindow="{x:Null}" DisplayName="Get Active Window" sap:VirtualizedContainerService.HintSize="436,169" sap2010:WorkflowViewState.IdRef="GetActiveWindow_1">
+              <ui:GetActiveWindow ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Get Active Window" sap:VirtualizedContainerService.HintSize="436,159" sap2010:WorkflowViewState.IdRef="GetActiveWindow_1">
                 <ui:GetActiveWindow.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_2849">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,80" sap2010:WorkflowViewState.IdRef="Sequence_2849">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -211,7 +211,7 @@
                   </ActivityAction>
                 </ui:GetActiveWindow.Body>
               </ui:GetActiveWindow>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Double Click" sap:VirtualizedContainerService.HintSize="436,116" sap2010:WorkflowViewState.IdRef="Click_3044" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_DOUBLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Double Click" sap:VirtualizedContainerService.HintSize="436,116" sap2010:WorkflowViewState.IdRef="Click_3044" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -237,20 +237,20 @@
           </ActivityAction>
         </ui:WindowScope.Body>
       </ui:WindowScope>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'saplogon.exe  SAP'" sap:VirtualizedContainerService.HintSize="512,1039" sap2010:WorkflowViewState.IdRef="WindowScope_690" InformativeScreenshot="eb981dbd71522659b9271e04b2a843e1" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'saplogon.exe  SAP'" sap:VirtualizedContainerService.HintSize="512,983" sap2010:WorkflowViewState.IdRef="WindowScope_690" InformativeScreenshot="eb981dbd71522659b9271e04b2a843e1" SearchScope="{x:Null}" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,883" sap2010:WorkflowViewState.IdRef="Sequence_2823">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,836" sap2010:WorkflowViewState.IdRef="Sequence_2823">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="358,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_153" Password="[Password]" PersistanceType="Enterprise" Target="SAPCredential" Username="[Username]" />
-              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Afx:65AB0000:1008'" sap:VirtualizedContainerService.HintSize="358,144" sap2010:WorkflowViewState.IdRef="TypeInto_1233" Text="[Username]">
+              <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="358,80" sap2010:WorkflowViewState.IdRef="GetSecureCredential_153" Password="[Password]" PersistanceType="Enterprise" Result="{x:Null}" Target="SAPCredential" Username="[Username]" />
+              <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Afx:65AB0000:1008'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="358,135" sap2010:WorkflowViewState.IdRef="TypeInto_1233" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="[Username]">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="53ddc8e9-9470-49a2-8782-088e2122bc0b" InformativeScreenshot="7834ec37cfa90533570b4d23fbca3fd0" Selector="&lt;wnd cls='Afx:*' idx='4' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -262,7 +262,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="358,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3926" Key="tab" KeyModifiers="None" SpecialKey="True">
+              <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3926" Key="tab" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="6c698b05-b0e6-4914-aebf-e9ccc22ac005">
                     <ui:Target.TimeoutMS>
@@ -274,7 +274,7 @@
                   </ui:Target>
                 </ui:SendHotkey.Target>
               </ui:SendHotkey>
-              <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text 'Afx:65AB0000:1008'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="TypeSecureText_111" SecureText="[Password]">
+              <ui:TypeSecureText Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Secure Text 'Afx:65AB0000:1008'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="TypeSecureText_111" SecureText="[Password]" SendWindowMessages="{x:Null}" SimulateType="{x:Null}">
                 <ui:TypeSecureText.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="823a6c19-e7eb-4aaa-a5d1-8753a806ec25" InformativeScreenshot="7834ec37cfa90533570b4d23fbca3fd0" Selector="&lt;wnd cls='Afx:*' idx='4' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -286,7 +286,7 @@
                   </ui:Target>
                 </ui:TypeSecureText.Target>
               </ui:TypeSecureText>
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="358,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3927" Key="enter" KeyModifiers="None" SpecialKey="True">
+              <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="358,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3927" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="549be5f1-3dc5-4f92-a847-130fdb27285b">
                     <ui:Target.TimeoutMS>
@@ -302,13 +302,13 @@
           </ActivityAction>
         </ui:WindowScope.Body>
       </ui:WindowScope>
-      <Sequence sap:VirtualizedContainerService.HintSize="512,4507" sap2010:WorkflowViewState.IdRef="Sequence_2826">
+      <Sequence sap:VirtualizedContainerService.HintSize="512,4382" sap2010:WorkflowViewState.IdRef="Sequence_2826">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="412,144" sap2010:WorkflowViewState.IdRef="TypeInto_1234" Text="SQ00">
+        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="412,144" sap2010:WorkflowViewState.IdRef="TypeInto_1234" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="SQ00">
           <ui:TypeInto.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="90b97162-c451-4977-9f99-cc34ca1f1bba" InformativeScreenshot="673060267921a97d6b4b65ab3f0f9278" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='SAP Easy Access' /&gt;&lt;wnd cls='Edit' /&gt;">
               <ui:Target.TimeoutMS>
@@ -320,7 +320,7 @@
             </ui:Target>
           </ui:TypeInto.Target>
         </ui:TypeInto>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="412,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3928" Key="enter" KeyModifiers="None" SpecialKey="True">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="412,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3928" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="a0e99bc8-1b15-4362-993a-d17b94ba2adc">
               <ui:Target.TimeoutMS>
@@ -332,7 +332,7 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="412,116" sap2010:WorkflowViewState.IdRef="Click_3045" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3045" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -354,13 +354,13 @@
             </ui:Target>
           </ui:Click.Target>
         </ui:Click>
-        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="412,1170" sap2010:WorkflowViewState.IdRef="Sequence_2824">
+        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="436,1105" sap2010:WorkflowViewState.IdRef="Sequence_2824">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="338,116" sap2010:WorkflowViewState.IdRef="Click_3046" KeyModifiers="None" MouseButton="BTN_LEFT">
+          <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="338,107" sap2010:WorkflowViewState.IdRef="Click_3046" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
             <ui:Click.CursorPosition>
               <ui:CursorPosition Position="Center">
                 <ui:CursorPosition.OffsetX>
@@ -382,7 +382,7 @@
               </ui:Target>
             </ui:Click.Target>
           </ui:Click>
-          <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Afx:56420000:b'" sap:VirtualizedContainerService.HintSize="338,144" sap2010:WorkflowViewState.IdRef="TypeInto_1235" Text="FP">
+          <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Afx:56420000:b'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="338,135" sap2010:WorkflowViewState.IdRef="TypeInto_1235" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="FP">
             <ui:TypeInto.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f5305779-ccbe-4e73-8a65-30e9bc4b149a" InformativeScreenshot="75400b9706f68449e817d6eec8321aa0" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Find' idx='*' /&gt;&lt;wnd ctrlid='102' /&gt;">
                 <ui:Target.TimeoutMS>
@@ -394,7 +394,7 @@
               </ui:Target>
             </ui:TypeInto.Target>
           </ui:TypeInto>
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'Afx:7B1B0000:b'" sap:VirtualizedContainerService.HintSize="338,162" sap2010:WorkflowViewState.IdRef="SendHotkey_3929" Key="enter" KeyModifiers="None" SpecialKey="True">
+          <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey 'Afx:7B1B0000:b'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="338,153" sap2010:WorkflowViewState.IdRef="SendHotkey_3929" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b19e9164-cd10-4fd4-886b-214565342652" InformativeScreenshot="a219fca68be33cc7a0e73ab1e4be1c22">
                 <ui:Target.TimeoutMS>
@@ -406,7 +406,7 @@
               </ui:Target>
             </ui:SendHotkey.Target>
           </ui:SendHotkey>
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3930" Key="f12" KeyModifiers="None" SpecialKey="True">
+          <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3930" Key="f12" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="6e207f2a-6e42-4fc7-ba16-91d2f2190b50">
                 <ui:Target.TimeoutMS>
@@ -418,7 +418,7 @@
               </ui:Target>
             </ui:SendHotkey.Target>
           </ui:SendHotkey>
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3931" Key="right" KeyModifiers="None" SpecialKey="True">
+          <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3931" Key="right" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="35606bbf-c135-4568-b361-7afbeb2b18ea">
                 <ui:Target.TimeoutMS>
@@ -430,7 +430,7 @@
               </ui:Target>
             </ui:SendHotkey.Target>
           </ui:SendHotkey>
-          <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3932" Key="enter" KeyModifiers="None" SpecialKey="True">
+          <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3932" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
             <ui:SendHotkey.Target>
               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="892165c5-b344-4443-a40e-0372e9d0ca31">
                 <ui:Target.TimeoutMS>
@@ -443,7 +443,7 @@
             </ui:SendHotkey.Target>
           </ui:SendHotkey>
         </Sequence>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" ContinueOnError="True" DisplayName="Send Hotkey 'Button'" sap:VirtualizedContainerService.HintSize="412,162" sap2010:WorkflowViewState.IdRef="SendHotkey_3933" Key="tab" KeyModifiers="None" SpecialKey="True">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="True" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey 'Button'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="412,162" sap2010:WorkflowViewState.IdRef="SendHotkey_3933" Key="tab" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c33aa02b-48a1-4393-a6b5-e9644f254174" InformativeScreenshot="45286847ae5064d5f07119b0181b55d2" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Query from User Group FP: Initial Screen' /&gt;&lt;wnd cls='Button' idx='11' /&gt;" TimeoutMS="1000">
               <ui:Target.WaitForReady>
@@ -452,7 +452,7 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" EmptyField="True" sap:VirtualizedContainerService.HintSize="412,124" sap2010:WorkflowViewState.IdRef="TypeInto_1236" Text="FPQR03C">
+        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into" EmptyField="True" sap:VirtualizedContainerService.HintSize="436,115" sap2010:WorkflowViewState.IdRef="TypeInto_1236" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="FPQR03C">
           <ui:TypeInto.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8f3af0a8-e925-455b-bffe-620595912639">
               <ui:Target.TimeoutMS>
@@ -464,7 +464,7 @@
             </ui:Target>
           </ui:TypeInto.Target>
         </ui:TypeInto>
-        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="412,116" sap2010:WorkflowViewState.IdRef="Click_3047" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3047" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -486,7 +486,7 @@
             </ui:Target>
           </ui:Click.Target>
         </ui:Click>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Afx:68320000:1008'" EmptyField="True" sap:VirtualizedContainerService.HintSize="412,144" sap2010:WorkflowViewState.IdRef="TypeInto_1237" Text="[Nothing]">
+        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Afx:68320000:1008'" EmptyField="True" sap:VirtualizedContainerService.HintSize="436,135" sap2010:WorkflowViewState.IdRef="TypeInto_1237" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="[Nothing]">
           <ui:TypeInto.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="91f91661-bf58-431e-b01d-cc1b8cbd0833" InformativeScreenshot="dd6c6064429c5d430400bffb98c46320" Selector="&lt;wnd app='saplogon.exe' cls='SAP_FRONTEND_SESSION' title='Shipments items not invoiced' /&gt;&lt;wnd cls='Afx:*' idx='4' /&gt;">
               <ui:Target.TimeoutMS>
@@ -498,7 +498,7 @@
             </ui:Target>
           </ui:TypeInto.Target>
         </ui:TypeInto>
-        <ui:ClickImage DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="412,164" sap2010:WorkflowViewState.IdRef="ClickImage_457" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:ClickImage ClickType="CLICK_SINGLE" ContinueOnError="True" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="436,155" sap2010:WorkflowViewState.IdRef="ClickImage_457" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}">
           <ui:ClickImage.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -520,7 +520,7 @@
             </ui:Target>
           </ui:ClickImage.Target>
         </ui:ClickImage>
-        <ui:ClickImage DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="412,164" sap2010:WorkflowViewState.IdRef="ClickImage_458" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:ClickImage ClickType="CLICK_SINGLE" ContinueOnError="True" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="436,155" sap2010:WorkflowViewState.IdRef="ClickImage_458" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}">
           <ui:ClickImage.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -542,7 +542,7 @@
             </ui:Target>
           </ui:ClickImage.Target>
         </ui:ClickImage>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="412,132" sap2010:WorkflowViewState.IdRef="SendHotkey_3934" Key="tab" KeyModifiers="None" SpecialKey="True">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="436,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3934" Key="tab" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="c5318cbd-ee79-4df8-aeae-996fabd284a3">
               <ui:Target.TimeoutMS>
@@ -554,7 +554,7 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into" EmptyField="True" sap:VirtualizedContainerService.HintSize="412,114" sap2010:WorkflowViewState.IdRef="TypeInto_1238" Text="[datetime.now.ToString(&quot;MM/dd/yyyy&quot;)]">
+        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into" EmptyField="True" sap:VirtualizedContainerService.HintSize="436,115" sap2010:WorkflowViewState.IdRef="TypeInto_1238" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="[datetime.now.ToString(&quot;MM/dd/yyyy&quot;)]">
           <ui:TypeInto.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="91f91661-bf58-431e-b01d-cc1b8cbd0833">
               <ui:Target.TimeoutMS>
@@ -566,7 +566,7 @@
             </ui:Target>
           </ui:TypeInto.Target>
         </ui:TypeInto>
-        <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="412,154" sap2010:WorkflowViewState.IdRef="ClickImage_459" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:ClickImage ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click Image 'saplogon.exe Shipments'" sap:VirtualizedContainerService.HintSize="436,155" sap2010:WorkflowViewState.IdRef="ClickImage_459" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}">
           <ui:ClickImage.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -591,7 +591,7 @@
             </ui:Target>
           </ui:ClickImage.Target>
         </ui:ClickImage>
-        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="412,106" sap2010:WorkflowViewState.IdRef="Click_3048" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3048" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -619,15 +619,15 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:Click>
-        <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Exists&lt;&gt;True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="412,363" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_867">
+        <ui:InterruptibleDoWhile Condition="[Exists&lt;&gt;True]" CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,361" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_867" MaxIterations="{x:Null}">
           <ui:InterruptibleDoWhile.Body>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="376,198" sap2010:WorkflowViewState.IdRef="Sequence_2825">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,195" sap2010:WorkflowViewState.IdRef="Sequence_2825">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:UiElementExists DisplayName="Element Exists 'saplogon.exe Export'" Exists="[Exists]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="UiElementExists_660">
+              <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'saplogon.exe Export'" Exists="[Exists]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="UiElementExists_660" Result="{x:Null}">
                 <ui:UiElementExists.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c7659832-914e-4952-af32-84563432533c" InformativeScreenshot="77bf44de63c70cc0cc3517d6e8d752b9" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Export list object to XXL' idx='*' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -642,7 +642,7 @@
             </Sequence>
           </ui:InterruptibleDoWhile.Body>
         </ui:InterruptibleDoWhile>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'Afx:55DE0000:b'" sap:VirtualizedContainerService.HintSize="412,152" sap2010:WorkflowViewState.IdRef="SendHotkey_3935" Key="down" KeyModifiers="None" SpecialKey="True">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey 'Afx:55DE0000:b'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="436,153" sap2010:WorkflowViewState.IdRef="SendHotkey_3935" Key="down" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0ad385f4-d96a-47d0-a047-3832e36445c3" InformativeScreenshot="b01c51ded66ada7615674432eb4281c4" Selector="&lt;wnd app='saplogon.exe' cls='#32770' title='Export list object to XXL' idx='*' /&gt;&lt;wnd ctrlid='101' /&gt;">
               <ui:Target.TimeoutMS>
@@ -654,7 +654,7 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="412,132" sap2010:WorkflowViewState.IdRef="SendHotkey_3936" Key="enter" KeyModifiers="None" SpecialKey="True">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="436,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3936" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="32c74cb3-bade-4435-9bf6-eec83b11678f">
               <ui:Target.TimeoutMS>
@@ -666,7 +666,7 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="412,106" sap2010:WorkflowViewState.IdRef="Click_3049" KeyModifiers="None" MouseButton="BTN_LEFT">
+        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3049" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
           <ui:Click.CursorPosition>
             <ui:CursorPosition Position="Center">
               <ui:CursorPosition.OffsetX>
@@ -689,27 +689,27 @@
           </ui:Click.Target>
         </ui:Click>
       </Sequence>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'excel.exe Worksheet'" sap:VirtualizedContainerService.HintSize="512,2359" sap2010:WorkflowViewState.IdRef="WindowScope_691" InformativeScreenshot="bb44e20e36326b857743c8b61afcf40c" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='Worksheet in Basis (1) - Excel' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'excel.exe Worksheet'" sap:VirtualizedContainerService.HintSize="512,2238" sap2010:WorkflowViewState.IdRef="WindowScope_691" InformativeScreenshot="bb44e20e36326b857743c8b61afcf40c" SearchScope="{x:Null}" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='Worksheet in Basis (1) - Excel' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,2203" sap2010:WorkflowViewState.IdRef="Sequence_2829">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,2091" sap2010:WorkflowViewState.IdRef="Sequence_2829">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[ExcelMatLoad&lt;&gt;True and ExcelMatLoad2&lt;&gt;True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,537" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_868">
+              <ui:InterruptibleDoWhile Condition="[ExcelMatLoad&lt;&gt;True and ExcelMatLoad2&lt;&gt;True]" CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,508" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_868" MaxIterations="{x:Null}">
                 <ui:InterruptibleDoWhile.Body>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,362" sap2010:WorkflowViewState.IdRef="Sequence_2827">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,342" sap2010:WorkflowViewState.IdRef="Sequence_2827">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:ImageFound DisplayName="Image Exists 'saplogon.exe SAP'" Found="[ExcelMatLoad]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="ImageFound_660">
+                    <ui:ImageFound ContinueOnError="{x:Null}" DisplayName="Image Exists 'saplogon.exe SAP'" Found="[ExcelMatLoad]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="ImageFound_660" Result="{x:Null}">
                       <ui:ImageFound.Image>
                         <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAG8AAAAJCAYAAAA8aHInAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFdSURBVFhH7VbRFYIwDOwiTMESHYIZmMHNMak9CCE0rfBU1I97Qi9JczmKhNstTCXELkz9YHN/tOPMeT7Mo2IhLJDFvc2GnnIoZjS4T8AYqT/q0eLegXPNG8PUKcN6YcbVT95PmBfp1wrAZr04mTI2nTwxHI5nfi/e4oe8bsUjBxziJbfXn87ryEjk1eRLfs6ha/mmYb5Fj7cfYsAxpF7Oi/xAMieDdRGL02ZZ5sn49OTTPRoAr+8xoBRPaxiOrq95rz/v5Hn5zHvmtejR++n5eHphOsfPHywpKRMozPCad8US0tOSa2p+M1yun5vbeyuU6un+aswr5bfyRT2ETT3CrKdCL18jf/O1iSehdji15mGtSWwWw/ca32ZeWqvQWzSPITfwmn/FyYNwC15/VzEvzadC78o83mz1R543O3LyZH4SI+KfEWt9aABef3p/jSZ9ebhH9XjzKeldzAvTHRul4ODmY7c9AAAAAElFTkSuQmCC" />
                       </ui:ImageFound.Image>
@@ -721,7 +721,7 @@
                         </ui:Target>
                       </ui:ImageFound.Target>
                     </ui:ImageFound>
-                    <ui:ImageFound DisplayName="Image Exists 'saplogon.exe SAP'" Found="[ExcelMatLoad2]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="ImageFound_661">
+                    <ui:ImageFound ContinueOnError="{x:Null}" DisplayName="Image Exists 'saplogon.exe SAP'" Found="[ExcelMatLoad2]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="ImageFound_661" Result="{x:Null}">
                       <ui:ImageFound.Image>
                         <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAH4AAAARCAYAAAAbgRgHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAIHSURBVGhD7VbtEcIwCO0iTuESDtEZOoObK3AhkhdiiNrTs/nxziuBx8fDtMv1utwmjocp/EEREn49kyPBO1NcTuRD2JyzifcQmf8osvAi3PLAZXs4TeG/i92Er0Qj0U/meY/EP4GV+oIl/0XsJvyZmj9dfAfGFP672FX4Z8SaeKPlyK8DuNbFB24JXqYihrBiTIs3iVLYLOy549OrWc5tPKG1/D0uhtya5FPFYc4Wz5N+NQ57trMUBGciv2ywhXjbL458zsmTDW8J8cEmIQZfKS3eXi6t1zYe5S7ETYPq/eMjXGHhHZ4etxeH/Y7OJH/cyXudjQm9jzu3qSfPAhi05xOx8WDOxKXnAo+bYH0q7hHhO1xh4W3+oM3zwdrDM6FnXo6H8Apy0gXQ7ZEAgvXrFefFKLcWiDEhm6nPw98KT9BzgZ3lCzOphWekgRQCQWK3uJFi1Wd0EMDRgpe/4k59/ovwIzPxhfcEgsRucZ0m3aun07Rnw3egB4khVDbL/UHhwz6d3qJxWPvoTBYhAFLZXiJ6+6onDhvHxdlnjIna9EOmEAz6kBiTK9ssNyx4CxEurEnOuV+syeYP2jIX/aoPznJ0JtVXPRaLAYUNSZ0kBbfH+6LtEzVnW+JoLUCUS/8wDP73SY3Gp5m/Y+PnzJf4MYYxMhP/qv8AbJKJ38MU/qCYwh8Sy+0OV4VCozBq6O4AAAAASUVORK5CYII=" />
                       </ui:ImageFound.Image>
@@ -736,7 +736,7 @@
                   </Sequence>
                 </ui:InterruptibleDoWhile.Body>
               </ui:InterruptibleDoWhile>
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="436,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3937" Key="f12" KeyModifiers="None" SpecialKey="True">
+              <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="436,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3937" Key="f12" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="04d7134d-264d-4a09-aeb6-24f9cf505fd3">
                     <ui:Target.TimeoutMS>
@@ -748,7 +748,7 @@
                   </ui:Target>
                 </ui:SendHotkey.Target>
               </ui:SendHotkey>
-              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="436,144" sap2010:WorkflowViewState.IdRef="TypeInto_1239" Text="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\Shipment report.xlsx">
+              <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="436,135" sap2010:WorkflowViewState.IdRef="TypeInto_1239" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\Shipment report.xlsx">
                 <ui:TypeInto.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a50a1b61-f8b4-4ef8-afdb-30cf432f689a" InformativeScreenshot="d8037cc85eab7b56ba898342642f331b" Selector="&lt;wnd app='excel.exe' cls='#32770' title='Save As' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" WaitForReady="COMPLETE">
                     <ui:Target.TimeoutMS>
@@ -757,7 +757,7 @@
                   </ui:Target>
                 </ui:TypeInto.Target>
               </ui:TypeInto>
-              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'combo box  Save as type:'" sap:VirtualizedContainerService.HintSize="436,144" sap2010:WorkflowViewState.IdRef="SelectItem_49" Item="Excel Workbook ">
+              <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'combo box  Save as type:'" sap:VirtualizedContainerService.HintSize="436,135" sap2010:WorkflowViewState.IdRef="SelectItem_49" Item="Excel Workbook ">
                 <ui:SelectItem.Items>
                   <scg:List x:TypeArguments="x:String" Capacity="32">
                     <x:String xml:space="preserve">Excel Workbook </x:String>
@@ -802,7 +802,7 @@
                   </ui:Target>
                 </ui:SelectItem.Target>
               </ui:SelectItem>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,116" sap2010:WorkflowViewState.IdRef="Click_3050" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3050" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -824,7 +824,7 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'Button'" sap:VirtualizedContainerService.HintSize="436,116" sap2010:WorkflowViewState.IdRef="UiElementExists_661">
+              <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'Button'" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="UiElementExists_661" Result="{x:Null}">
                 <ui:UiElementExists.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="158055aa-5b5f-4f01-a4a8-a1542f8e93c7" InformativeScreenshot="4e1a35e511cc4ce95168aa473d75d4c3" Selector="&lt;wnd app='excel.exe' cls='#32770' title='Confirm Save As' /&gt;&lt;wnd aaname='Confirm Save As' cls='DirectUIHWND' /&gt;&lt;wnd aaname='Yes' cls='Button' title='&amp;amp;Yes' /&gt;">
                     <ui:Target.TimeoutMS>
@@ -836,7 +836,7 @@
                   </ui:Target>
                 </ui:UiElementExists.Target>
               </ui:UiElementExists>
-              <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,116" sap2010:WorkflowViewState.IdRef="Click_3051" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="436,107" sap2010:WorkflowViewState.IdRef="Click_3051" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                 <ui:Click.CursorPosition>
                   <ui:CursorPosition Position="Center">
                     <ui:CursorPosition.OffsetX>
@@ -858,16 +858,16 @@
                   </ui:Target>
                 </ui:Click.Target>
               </ui:Click>
-              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="436,97" sap2010:WorkflowViewState.IdRef="Delay_772" />
-              <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[SavingZGUTCC=True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,381" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_869">
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="436,90" sap2010:WorkflowViewState.IdRef="Delay_772" />
+              <ui:InterruptibleDoWhile Condition="[SavingZGUTCC=True]" CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,361" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_869" MaxIterations="{x:Null}">
                 <ui:InterruptibleDoWhile.Body>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,206" sap2010:WorkflowViewState.IdRef="Sequence_2828">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,195" sap2010:WorkflowViewState.IdRef="Sequence_2828">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:UiElementExists DisplayName="Element Exists 'excel.exe  Saving'" Exists="[SavingZGUTCC]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="UiElementExists_662">
+                    <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'excel.exe  Saving'" Exists="[SavingZGUTCC]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="UiElementExists_662" Result="{x:Null}">
                       <ui:UiElementExists.Target>
                         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="84bd48cc-e796-451f-a76f-0c7123acab42" InformativeScreenshot="60adce884cc373ec1fa00ebd4bc2e021" Selector="&lt;wnd app='excel.exe' cls='NUIDialog' title='Saving' /&gt;" TimeoutMS="5">
                           <ui:Target.WaitForReady>
@@ -883,47 +883,47 @@
           </ActivityAction>
         </ui:WindowScope.Body>
       </ui:WindowScope>
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="KillProcess_433" ProcessName="saplogon" />
-      <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,142" sap2010:WorkflowViewState.IdRef="KillProcess_434" ProcessName="EXCEL" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,133" sap2010:WorkflowViewState.IdRef="KillProcess_433" Process="{x:Null}" ProcessName="saplogon" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="512,133" sap2010:WorkflowViewState.IdRef="KillProcess_434" Process="{x:Null}" ProcessName="EXCEL" />
     </Sequence>
-    <Sequence DisplayName="IFS Shipment Report" sap:VirtualizedContainerService.HintSize="720,7061" sap2010:WorkflowViewState.IdRef="Sequence_2841">
+    <Sequence DisplayName="IFS Shipment Report" sap:VirtualizedContainerService.HintSize="722.4,6678.4" sap2010:WorkflowViewState.IdRef="Sequence_2841">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="IFS" sap:VirtualizedContainerService.HintSize="658,6939" sap2010:WorkflowViewState.IdRef="Sequence_2840">
+      <Sequence DisplayName="IFS" sap:VirtualizedContainerService.HintSize="660,6566.4" sap2010:WorkflowViewState.IdRef="Sequence_2840">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsPinned">False</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="596,142" sap2010:WorkflowViewState.IdRef="KillProcess_435" ProcessName="msedge" />
-        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="596,142" sap2010:WorkflowViewState.IdRef="KillProcess_438" ProcessName="Ifs.Fnd.Explorer.exe" />
-        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Edge" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="596,3956" sap2010:WorkflowViewState.IdRef="OpenBrowser_12" Url="https://praesidiad.ifs.cloud:48080/">
+        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="597,133" sap2010:WorkflowViewState.IdRef="KillProcess_435" Process="{x:Null}" ProcessName="msedge" />
+        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="597,133" sap2010:WorkflowViewState.IdRef="KillProcess_438" Process="{x:Null}" ProcessName="Ifs.Fnd.Explorer.exe" />
+        <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" BrowserType="Edge" CommunicationMethod="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Open Browser" Hidden="{x:Null}" sap:VirtualizedContainerService.HintSize="597.6,3724" sap2010:WorkflowViewState.IdRef="OpenBrowser_12" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" Url="https://praesidiad.ifs.cloud:48080/" UserDataFolderMode="{x:Null}" UserDataFolderPath="{x:Null}">
           <ui:OpenBrowser.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,3845" sap2010:WorkflowViewState.IdRef="Sequence_2834">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,3621.6" sap2010:WorkflowViewState.IdRef="Sequence_2834">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="442,491" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="99999" RetryInterval="00:00:01">
+                <ui:RetryScope ContinueOnError="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="442,462" sap2010:WorkflowViewState.IdRef="RetryScope_2" NumberOfRetries="99999" RetryInterval="00:00:01">
                   <ui:RetryScope.ActivityBody>
                     <ActivityAction>
-                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="400,206" sap2010:WorkflowViewState.IdRef="Sequence_2850">
+                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="400,195" sap2010:WorkflowViewState.IdRef="Sequence_2850">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'IMG  EnterpriseExplorer...'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3059" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'IMG  EnterpriseExplorer...'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3059" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -950,7 +950,7 @@
                   </ui:RetryScope.ActivityBody>
                   <ui:RetryScope.Condition>
                     <ActivityFunc x:TypeArguments="x:Boolean">
-                      <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'push button  Open'" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="UiElementExists_665">
+                      <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'push button  Open'" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="UiElementExists_665" Result="{x:Null}">
                         <ui:UiElementExists.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="54f93ea3-274c-4a40-a525-9793eaac0ca4" InformativeScreenshot="a7d2e9bb569e85a534043ed8882d3af4" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='IFS Applications - PRAEPRD - Work - Microsoft​ Edge' /&gt;&lt;ctrl name='Open this file?' role='dialog' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" TimeoutMS="2000" WaitForReady="COMPLETE" />
                         </ui:UiElementExists.Target>
@@ -958,63 +958,60 @@
                     </ActivityFunc>
                   </ui:RetryScope.Condition>
                 </ui:RetryScope>
-                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'push button  Open'" sap:VirtualizedContainerService.HintSize="442,116" sap2010:WorkflowViewState.IdRef="Click_3060" KeyModifiers="None" MouseButton="BTN_LEFT">
-                  <ui:Click.CursorPosition>
-                    <ui:CursorPosition Position="Center">
-                      <ui:CursorPosition.OffsetX>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetX>
-                      <ui:CursorPosition.OffsetY>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:CursorPosition.OffsetY>
-                    </ui:CursorPosition>
-                  </ui:Click.CursorPosition>
-                  <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="11096bdc-0661-4024-a149-9aaafbe818b9" InformativeScreenshot="d80c05c12e9e25abdc0e2b08ab9f38c9" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='IFS Applications - PRAEPRD - Work - Microsoft​ Edge' /&gt;&lt;ctrl name='Open this file?' role='dialog' /&gt;&lt;ctrl name='Open' role='push button' /&gt;">
-                      <ui:Target.TimeoutMS>
-                        <InArgument x:TypeArguments="x:Int32" />
-                      </ui:Target.TimeoutMS>
-                      <ui:Target.WaitForReady>
-                        <InArgument x:TypeArguments="ui:WaitForReady" />
-                      </ui:Target.WaitForReady>
-                    </ui:Target>
-                  </ui:Click.Target>
-                </ui:Click>
-                <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="442,366" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="99999" RetryInterval="00:00:01">
+                <ui:RetryScope ContinueOnError="{x:Null}" DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="442,462" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="99999" RetryInterval="00:00:01">
                   <ui:RetryScope.ActivityBody>
                     <ActivityAction>
-                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_2848">
+                      <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="400,195" sap2010:WorkflowViewState.IdRef="Sequence_2848">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'push button  Open'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3060" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="11096bdc-0661-4024-a149-9aaafbe818b9" InformativeScreenshot="d80c05c12e9e25abdc0e2b08ab9f38c9" Selector="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='IFS Applications - PRAEPRD - Work - Microsoft​ Edge' /&gt;&lt;ctrl name='Open this file?' role='dialog' /&gt;&lt;ctrl name='Open' role='push button' /&gt;" TimeoutMS="3000">
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
                       </Sequence>
                     </ActivityAction>
                   </ui:RetryScope.ActivityBody>
                   <ui:RetryScope.Condition>
                     <ActivityFunc x:TypeArguments="x:Boolean">
-                      <ui:UiElementExists Exists="{x:Null}" DisplayName="Element Exists 'ifs.fnd.explorer.exe IFS'" sap:VirtualizedContainerService.HintSize="334,116" sap2010:WorkflowViewState.IdRef="UiElementExists_664">
+                      <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'ifs.fnd.explorer.exe IFS'" Exists="{x:Null}" sap:VirtualizedContainerService.HintSize="334,107" sap2010:WorkflowViewState.IdRef="UiElementExists_664" Result="{x:Null}">
                         <ui:UiElementExists.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb57a3a1-3681-416b-bd61-60798fe8eec2" InformativeScreenshot="fdd9d78530199fa90dc648db61eede76" Selector="&lt;html app='ifs.fnd.explorer.exe' title='Sign in to your account' /&gt;&lt;webctrl parentid='tilesHolder' tag='IMG' /&gt;" TimeoutMS="1000" WaitForReady="COMPLETE" />
+                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cb57a3a1-3681-416b-bd61-60798fe8eec2" InformativeScreenshot="fdd9d78530199fa90dc648db61eede76" Selector="&lt;html app='ifs.fnd.explorer.exe' title='Sign in to your account' /&gt;&lt;webctrl parentid='tilesHolder' tag='IMG' /&gt;" TimeoutMS="10000" WaitForReady="COMPLETE" />
                         </ui:UiElementExists.Target>
                       </ui:UiElementExists>
                     </ActivityFunc>
                   </ui:RetryScope.Condition>
                 </ui:RetryScope>
-                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'ifs.fnd.explorer.exe IFS'" sap:VirtualizedContainerService.HintSize="442,362" sap2010:WorkflowViewState.IdRef="WindowScope_692" InformativeScreenshot="8a382c11c7a05a4fbda5a95e5a992758" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='WebAuthentication' /&gt;" TimeoutMS="9999999">
+                <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'ifs.fnd.explorer.exe IFS'" sap:VirtualizedContainerService.HintSize="442,342" sap2010:WorkflowViewState.IdRef="WindowScope_692" InformativeScreenshot="8a382c11c7a05a4fbda5a95e5a992758" SearchScope="{x:Null}" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='WebAuthentication' /&gt;" TimeoutMS="9999999" Window="{x:Null}">
                   <ui:WindowScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,206" sap2010:WorkflowViewState.IdRef="Sequence_2832">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,195" sap2010:WorkflowViewState.IdRef="Sequence_2832">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_DOUBLE" DisplayName="Click 'IMG '" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3052" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_DOUBLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'IMG '" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3052" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1040,20 +1037,20 @@
                     </ActivityAction>
                   </ui:WindowScope.Body>
                 </ui:WindowScope>
-                <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'ifs.fnd.explorer.exe WE...'" sap:VirtualizedContainerService.HintSize="442,2260" sap2010:WorkflowViewState.IdRef="WindowScope_693" InformativeScreenshot="b7aa2961d21ff4166c97696c81059b44" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='AuroraExplorerForm' /&gt;">
+                <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Attach Window 'ifs.fnd.explorer.exe WE...'" sap:VirtualizedContainerService.HintSize="441.6,2144.8" sap2010:WorkflowViewState.IdRef="WindowScope_693" InformativeScreenshot="b7aa2961d21ff4166c97696c81059b44" SearchScope="{x:Null}" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='AuroraExplorerForm' /&gt;" TimeoutMS="{x:Null}" Window="{x:Null}">
                   <ui:WindowScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="400,2104" sap2010:WorkflowViewState.IdRef="Sequence_2833">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="401.6,1997.6" sap2010:WorkflowViewState.IdRef="Sequence_2833">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_773" />
-                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358,144" sap2010:WorkflowViewState.IdRef="TypeInto_1240" SimulateType="True" Text="ifsapf:tbwQuickReport?EXTERNAL_SEARCH=UXVpY2tSZXBvcnRJZD02MTM4MzQmU3FsU3RhdGVtZW50PVNFTEVDVCUwRCUwQSUyMCUyMCUyMCUyMHNoLlBBUkVOVF9DT05TT0xfU0hJUE1FTlRfSUQlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5zdGF0ZSUyMGFzJTIwU3RhdHVzJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guc2hpcG1lbnRfaWQlMkMlMEQlMEElMjAlMjAlMjAlMjBzbC5zaGlwbWVudF9saW5lX25vJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZjElMjBDT19PUkRFUiUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLlJFQ0VJVkVSX0FERFJFU1NfTkFNRSUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5TaGlwbWVudF9Tb3VyY2VfVXRpbGl0eV9BUEkuR2V0X1JlY2VpdmVyX05hbWUlMjhzaC5SRUNFSVZFUl9JRCUyQyUyMHNoLlJFQ0VJVkVSX1RZUEVfREIlMjklMjBSRUNFSVZFUl9ERVNDUiUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5DdXN0b21lcl9PcmRlcl9MaW5lX0FQSS5HZXRfQ3VzdG9tZXJfTm8lMjhzbC5zb3VyY2VfcmVmMSUyQyUyMHNsLnNvdXJjZV9yZWYyJTJDJTIwc2wuc291cmNlX3JlZjMlMkMlMjBzbC5TT1VSQ0VfUkVGNCUyOSUyMGFzJTIwQ1VTVE9NRVJfTk8lMkMlMEQlMEElMjAlMjAlMjAlMjBpZnNhcHAuQ1VTVE9NRVJfSU5GT19BUEkuR2V0X05hbWUlMjAlMjhpZnNhcHAuQ3VzdG9tZXJfT3JkZXJfTGluZV9BUEkuR2V0X0N1c3RvbWVyX05vJTI4c2wuc291cmNlX3JlZjElMkMlMjBzbC5zb3VyY2VfcmVmMiUyQyUyMHNsLnNvdXJjZV9yZWYzJTJDJTIwc2wuU09VUkNFX1JFRjQlMjklMjklMjBDVVNUT01FUl9OQU1FJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZjIlMjBDT19PUkRFUl9MSU5FJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3BhcnRfbm8lMjBQQVJUX05PJTJDJTBEJTBBJTIwJTIwJTIwJTIwJTIwQ0FTRSUyMFdIRU4lMjBpZnNhcHAuU0hJUE1FTlRfT1JERVJfVVRJTElUWV9BUEkuR0VUX0NPTExFQ1RfQ0hBUkdFX0NVUlJFTkNZJTI4c2guU0hJUE1FTlRfSUQlMjklMjAlM0QlMjdFVVIlMjclMjB0aGVuJTIwcm91bmQlMjgxJTJGaWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQyUyN0VVUiUyNyUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUyQzUlMjklMjBlbHNlJTBEJTBBJTIwJTIwJTIwJTIwJTIwcm91bmQlMjgxJTJGaWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQ2lmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUyQzUlMjklMjBFTkQlMjBBUyUyMENVUlJFTkNZX1JBVEUlMkMlMEQlMEElMjAlMjAlMjAlMjAlMjAlMEQlMEElMjAlMjAlMjAlMjAlMjBzbC5RVFlfQVNTSUdORUQlMjAlMkElMjBDVVNUT01FUl9PUkRFUl9MSU5FX0FQSS5HZXRfU2FsZV9Vbml0X1ByaWNlJTIwJTI4c2wuc291cmNlX3JlZjElMkMlMjBzbC5zb3VyY2VfcmVmMiUyQyUyMHNsLnNvdXJjZV9yZWYzJTJDJTIwc2wuU09VUkNFX1JFRjQlMjklMjAlMjBPUklHSU5BTF9BTU9VTlQlMkMlMEQlMEElMjAlMjAlMjAlMjAlMjBDQVNFJTIwV0hFTiUyMGlmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyMCUzRCUyMCUyN0VVUiUyNyUyMHRoZW4lMjAlMEQlMEElMjAlMjAlMjAlMjAlMjByb3VuZCUyOGlmc2FwcC5DVVJSRU5DWV9SQVRFX0FQSS5HZXRfQ3VycmVuY3lfUmF0ZSUyMCUyOCUyNzExODAlMjclMkMlMjdFVVIlMjclMkMlMjczJTI3JTJDc2gucGxhbm5lZF9zaGlwX2RhdGUlMjklMkM0JTI5JTIwJTJBJTIwc2wuUVRZX0FTU0lHTkVEJTIwJTJBJTIwQ1VTVE9NRVJfT1JERVJfTElORV9BUEkuR2V0X1NhbGVfVW5pdF9QcmljZSUyMCUyOHNsLnNvdXJjZV9yZWYxJTJDJTIwc2wuc291cmNlX3JlZjIlMkMlMjBzbC5zb3VyY2VfcmVmMyUyQyUyMHNsLlNPVVJDRV9SRUY0JTI5JTBEJTBBJTIwJTIwJTIwJTIwZWxzZSUyMCUwRCUwQSUyMCUyMCUyMCUyMHJvdW5kJTI4JTI4aWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQ2lmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUwRCUwQSUyMCUyMCUyMCUyMCUyQXNsLlFUWV9BU1NJR05FRCUyMCUyQSUyMENVU1RPTUVSX09SREVSX0xJTkVfQVBJLkdldF9TYWxlX1VuaXRfUHJpY2UlMjAlMjhzbC5zb3VyY2VfcmVmMSUyQyUyMHNsLnNvdXJjZV9yZWYyJTJDJTIwc2wuc291cmNlX3JlZjMlMkMlMjBzbC5TT1VSQ0VfUkVGNCUyOSUyOSUyQzQlMjklMEQlMEElMjAlMjAlMjAlMjAlMjBlbmQlMjBFVVJfQU1PVU5UJTJDJTBEJTBBJTIwJTIwJTIwJTIwJTIwJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLlNISVBNRU5UX09SREVSX1VUSUxJVFlfQVBJLkdFVF9DT0xMRUNUX0NIQVJHRV9DVVJSRU5DWSUyOHNoLlNISVBNRU5UX0lEJTI5JTIwQ1VSUkVOQ1klMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5BQ1RVQUxfU0hJUF9EQVRFJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZl90eXBlJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wucXR5X3NoaXBwZWQlMkMlMEQlMEElMjAlMjAlMjAlMjBpZnNhcHAuc2hpcG1lbnRfQVBJLkdldF9QbGFubmVkX1NoaXBfRGF0ZSUyOHNoLlBBUkVOVF9DT05TT0xfU0hJUE1FTlRfSUQlMjlQTEFOTkVEX1NISVBfREFURSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnBsYW5uZWRfc2hpcF9wZXJpb2QlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5hdXRvX2Nvbm5lY3Rpb25fYmxvY2tlZF9kYiUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLmNyZWF0ZWRfZGF0ZSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnNoaXBtZW50X3R5cGUlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5zaGlwX3ZpYV9jb2RlJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guYXBwcm92ZV9iZWZvcmVfZGVsaXZlcnlfZGIlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC50cmFuc3BvcnRfdW5pdF90eXBlJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnRyYW5zcG9ydF91bml0X3R5cGVfYXBpLmdldF9kZXNjcmlwdGlvbiUyOHNoLnRyYW5zcG9ydF91bml0X3R5cGUlMjklMjBVTklUX1RZUEVfREVTQyUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnJvdXRlX2lkJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLmRlbGl2ZXJ5X3JvdXRlX2FwaS5nZXRfZGVzY3JpcHRpb24lMjhzaC5yb3V0ZV9pZCUyOSUyMFJPVVRFX0RFU0MlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5mb3J3YXJkX2FnZW50X2lkJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guc2hpcF9pbnZlbnRvcnlfbG9jYXRpb25fbm8lMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5tYW51YWxfdm9sdW1lJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfb3BlcmF0aW9uYWxfdm9sdW1lJTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3ZvbHVtZSUyOSUyMFZPTFVNRSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnZvbHVtZV9jYXBhY2l0eSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnVvbV9mb3Jfdm9sdW1lJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfbmV0X3dlaWdodCUyOHNoLnNoaXBtZW50X2lkJTJDJTIwc2gudW9tX2Zvcl93ZWlnaHQlMkMlMjAlMjdGQUxTRSUyNyUyOSUyME5FVF9XRUlHSFQlMkMlMEQlMEElMjAlMjAlMjAlMjAtLWlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X25ldF93ZWlnaHQlMjhzaC5zaGlwbWVudF9pZCUyQyUyMHNoLnVvbV9mb3Jfd2VpZ2h0JTJDJTIwJTI3VFJVRSUyNyUyOSUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X3NoaXBtZW50X3RhcmVfd2VpZ2h0JTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3dlaWdodCUyOSUyMFRBUkVfV0VJR0hUJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2gubWFudWFsX2dyb3NzX3dlaWdodCUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X29wZXJhdGlvbmFsX2dyb3NzX3dlaWdodCUyOHNoLnNoaXBtZW50X2lkJTJDJTIwc2gudW9tX2Zvcl93ZWlnaHQlMkMlMjAlMjdGQUxTRSUyNyUyOSUyMEdST1NTX1dJRUdIVCUyQyUwRCUwQSUyMCUyMCUyMCUyMC0taWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfb3BlcmF0aW9uYWxfZ3Jvc3Nfd2VpZ2h0JTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3dlaWdodCUyQyUyMCUyN1RSVUUlMjclMjklMkMlMEQlMEElMjAlMjAlMjAlMjBzaC53ZWlnaHRfY2FwYWNpdHklMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5VT01fRk9SX1dFSUdIVCUyQyUwRCUwQSUyMCUyMCUyMCUyMCUyOHNlbGVjdCUyMGZuZF91c2VyX2FwaS5HZXRfRGVzY3JpcHRpb24lMjh1c2VybmFtZSUyOSUyMCUwRCUwQWZyb20lMjBJRlNBUFAuaGlzdG9yeV9sb2clMjBobCUwRCUwQXdoZXJlJTIwaGwubHVfbmFtZSUyMCUzRCUyMCUyN1NoaXBtZW50JTI3JTBEJTBBJTIwYW5kJTIwaGwubW9kdWxlJTIwJTNEJTIwJTI3U0hQTU5UJTI3JTIwJTBEJTBBYW5kJTIwaGlzdG9yeV90eXBlX2RiJTIwJTNEJTIwJTI3MSUyNyUwRCUwQWFuZCUyMHJlcGxhY2UlMjhyZXBsYWNlJTI4aGwua2V5cyUyQyUyMCUyN1NISVBNRU5UX0lEJTNEJTI3JTJDJTIwJTI3JTI3JTI5JTJDJTIwJTI3JTVFJTI3JTJDJTI3JTI3JTI5JTIwJTNEJTIwc2guUEFSRU5UX0NPTlNPTF9TSElQTUVOVF9JRCUwRCUwQWFuZCUyMHJvd251bSUyMCUzRCUyMDElMEQlMEElMjklMjBjcmVhdG9yJTBEJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTBEJTBBRlJPTSUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudCUyMHNoJTJDaWZzYXBwLnNoaXBtZW50X2xpbmUlMjBzbCUwRCUwQSUyMCUyMCUyMCUyMHdoZXJlJTBEJTBBc2wuc2hpcG1lbnRfaWQlM0RzaC5zaGlwbWVudF9pZCUwRCUwQWFuZCUyMHNoLnN0YXRlJTIwJTNDJTNFJTI3Q2xvc2VkJTI3JTBEJTBBYW5kJTIwc2guUEFSRU5UX0NPTlNPTF9TSElQTUVOVF9JRCUyMGlzJTIwbm90JTIwbnVsbCZRdWlja1JlcG9ydFRpdGxlPVNoaXBtZW50c19jb25zX1BsYW5uZWQmQ29tbWVudHM9JlJvd1R5cGU9&amp;COMPANY=1180">
+                        <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="358.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_773" />
+                        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Edit'" EmptyField="True" sap:VirtualizedContainerService.HintSize="358.4,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_1240" SendWindowMessages="{x:Null}" SimulateType="True" Text="ifsapf:tbwQuickReport?EXTERNAL_SEARCH=UXVpY2tSZXBvcnRJZD02MTM4MzQmU3FsU3RhdGVtZW50PVNFTEVDVCUwRCUwQSUyMCUyMCUyMCUyMHNoLlBBUkVOVF9DT05TT0xfU0hJUE1FTlRfSUQlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5zdGF0ZSUyMGFzJTIwU3RhdHVzJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guc2hpcG1lbnRfaWQlMkMlMEQlMEElMjAlMjAlMjAlMjBzbC5zaGlwbWVudF9saW5lX25vJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZjElMjBDT19PUkRFUiUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLlJFQ0VJVkVSX0FERFJFU1NfTkFNRSUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5TaGlwbWVudF9Tb3VyY2VfVXRpbGl0eV9BUEkuR2V0X1JlY2VpdmVyX05hbWUlMjhzaC5SRUNFSVZFUl9JRCUyQyUyMHNoLlJFQ0VJVkVSX1RZUEVfREIlMjklMjBSRUNFSVZFUl9ERVNDUiUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5DdXN0b21lcl9PcmRlcl9MaW5lX0FQSS5HZXRfQ3VzdG9tZXJfTm8lMjhzbC5zb3VyY2VfcmVmMSUyQyUyMHNsLnNvdXJjZV9yZWYyJTJDJTIwc2wuc291cmNlX3JlZjMlMkMlMjBzbC5TT1VSQ0VfUkVGNCUyOSUyMGFzJTIwQ1VTVE9NRVJfTk8lMkMlMEQlMEElMjAlMjAlMjAlMjBpZnNhcHAuQ1VTVE9NRVJfSU5GT19BUEkuR2V0X05hbWUlMjAlMjhpZnNhcHAuQ3VzdG9tZXJfT3JkZXJfTGluZV9BUEkuR2V0X0N1c3RvbWVyX05vJTI4c2wuc291cmNlX3JlZjElMkMlMjBzbC5zb3VyY2VfcmVmMiUyQyUyMHNsLnNvdXJjZV9yZWYzJTJDJTIwc2wuU09VUkNFX1JFRjQlMjklMjklMjBDVVNUT01FUl9OQU1FJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZjIlMjBDT19PUkRFUl9MSU5FJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3BhcnRfbm8lMjBQQVJUX05PJTJDJTBEJTBBJTIwJTIwJTIwJTIwJTIwQ0FTRSUyMFdIRU4lMjBpZnNhcHAuU0hJUE1FTlRfT1JERVJfVVRJTElUWV9BUEkuR0VUX0NPTExFQ1RfQ0hBUkdFX0NVUlJFTkNZJTI4c2guU0hJUE1FTlRfSUQlMjklMjAlM0QlMjdFVVIlMjclMjB0aGVuJTIwcm91bmQlMjgxJTJGaWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQyUyN0VVUiUyNyUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUyQzUlMjklMjBlbHNlJTBEJTBBJTIwJTIwJTIwJTIwJTIwcm91bmQlMjgxJTJGaWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQ2lmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUyQzUlMjklMjBFTkQlMjBBUyUyMENVUlJFTkNZX1JBVEUlMkMlMEQlMEElMjAlMjAlMjAlMjAlMjAlMEQlMEElMjAlMjAlMjAlMjAlMjBzbC5RVFlfQVNTSUdORUQlMjAlMkElMjBDVVNUT01FUl9PUkRFUl9MSU5FX0FQSS5HZXRfU2FsZV9Vbml0X1ByaWNlJTIwJTI4c2wuc291cmNlX3JlZjElMkMlMjBzbC5zb3VyY2VfcmVmMiUyQyUyMHNsLnNvdXJjZV9yZWYzJTJDJTIwc2wuU09VUkNFX1JFRjQlMjklMjAlMjBPUklHSU5BTF9BTU9VTlQlMkMlMEQlMEElMjAlMjAlMjAlMjAlMjBDQVNFJTIwV0hFTiUyMGlmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyMCUzRCUyMCUyN0VVUiUyNyUyMHRoZW4lMjAlMEQlMEElMjAlMjAlMjAlMjAlMjByb3VuZCUyOGlmc2FwcC5DVVJSRU5DWV9SQVRFX0FQSS5HZXRfQ3VycmVuY3lfUmF0ZSUyMCUyOCUyNzExODAlMjclMkMlMjdFVVIlMjclMkMlMjczJTI3JTJDc2gucGxhbm5lZF9zaGlwX2RhdGUlMjklMkM0JTI5JTIwJTJBJTIwc2wuUVRZX0FTU0lHTkVEJTIwJTJBJTIwQ1VTVE9NRVJfT1JERVJfTElORV9BUEkuR2V0X1NhbGVfVW5pdF9QcmljZSUyMCUyOHNsLnNvdXJjZV9yZWYxJTJDJTIwc2wuc291cmNlX3JlZjIlMkMlMjBzbC5zb3VyY2VfcmVmMyUyQyUyMHNsLlNPVVJDRV9SRUY0JTI5JTBEJTBBJTIwJTIwJTIwJTIwZWxzZSUyMCUwRCUwQSUyMCUyMCUyMCUyMHJvdW5kJTI4JTI4aWZzYXBwLkNVUlJFTkNZX1JBVEVfQVBJLkdldF9DdXJyZW5jeV9SYXRlJTIwJTI4JTI3MTE4MCUyNyUyQ2lmc2FwcC5TSElQTUVOVF9PUkRFUl9VVElMSVRZX0FQSS5HRVRfQ09MTEVDVF9DSEFSR0VfQ1VSUkVOQ1klMjhzaC5TSElQTUVOVF9JRCUyOSUyQyUyNzMlMjclMkNzaC5wbGFubmVkX3NoaXBfZGF0ZSUyOSUwRCUwQSUyMCUyMCUyMCUyMCUyQXNsLlFUWV9BU1NJR05FRCUyMCUyQSUyMENVU1RPTUVSX09SREVSX0xJTkVfQVBJLkdldF9TYWxlX1VuaXRfUHJpY2UlMjAlMjhzbC5zb3VyY2VfcmVmMSUyQyUyMHNsLnNvdXJjZV9yZWYyJTJDJTIwc2wuc291cmNlX3JlZjMlMkMlMjBzbC5TT1VSQ0VfUkVGNCUyOSUyOSUyQzQlMjklMEQlMEElMjAlMjAlMjAlMjAlMjBlbmQlMjBFVVJfQU1PVU5UJTJDJTBEJTBBJTIwJTIwJTIwJTIwJTIwJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLlNISVBNRU5UX09SREVSX1VUSUxJVFlfQVBJLkdFVF9DT0xMRUNUX0NIQVJHRV9DVVJSRU5DWSUyOHNoLlNISVBNRU5UX0lEJTI5JTIwQ1VSUkVOQ1klMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5BQ1RVQUxfU0hJUF9EQVRFJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wuc291cmNlX3JlZl90eXBlJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2wucXR5X3NoaXBwZWQlMkMlMEQlMEElMjAlMjAlMjAlMjBpZnNhcHAuc2hpcG1lbnRfQVBJLkdldF9QbGFubmVkX1NoaXBfRGF0ZSUyOHNoLlBBUkVOVF9DT05TT0xfU0hJUE1FTlRfSUQlMjlQTEFOTkVEX1NISVBfREFURSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnBsYW5uZWRfc2hpcF9wZXJpb2QlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5hdXRvX2Nvbm5lY3Rpb25fYmxvY2tlZF9kYiUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLmNyZWF0ZWRfZGF0ZSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnNoaXBtZW50X3R5cGUlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5zaGlwX3ZpYV9jb2RlJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guYXBwcm92ZV9iZWZvcmVfZGVsaXZlcnlfZGIlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC50cmFuc3BvcnRfdW5pdF90eXBlJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnRyYW5zcG9ydF91bml0X3R5cGVfYXBpLmdldF9kZXNjcmlwdGlvbiUyOHNoLnRyYW5zcG9ydF91bml0X3R5cGUlMjklMjBVTklUX1RZUEVfREVTQyUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnJvdXRlX2lkJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLmRlbGl2ZXJ5X3JvdXRlX2FwaS5nZXRfZGVzY3JpcHRpb24lMjhzaC5yb3V0ZV9pZCUyOSUyMFJPVVRFX0RFU0MlMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5mb3J3YXJkX2FnZW50X2lkJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2guc2hpcF9pbnZlbnRvcnlfbG9jYXRpb25fbm8lMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5tYW51YWxfdm9sdW1lJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfb3BlcmF0aW9uYWxfdm9sdW1lJTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3ZvbHVtZSUyOSUyMFZPTFVNRSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnZvbHVtZV9jYXBhY2l0eSUyQyUwRCUwQSUyMCUyMCUyMCUyMHNoLnVvbV9mb3Jfdm9sdW1lJTJDJTBEJTBBJTIwJTIwJTIwJTIwaWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfbmV0X3dlaWdodCUyOHNoLnNoaXBtZW50X2lkJTJDJTIwc2gudW9tX2Zvcl93ZWlnaHQlMkMlMjAlMjdGQUxTRSUyNyUyOSUyME5FVF9XRUlHSFQlMkMlMEQlMEElMjAlMjAlMjAlMjAtLWlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X25ldF93ZWlnaHQlMjhzaC5zaGlwbWVudF9pZCUyQyUyMHNoLnVvbV9mb3Jfd2VpZ2h0JTJDJTIwJTI3VFJVRSUyNyUyOSUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X3NoaXBtZW50X3RhcmVfd2VpZ2h0JTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3dlaWdodCUyOSUyMFRBUkVfV0VJR0hUJTJDJTBEJTBBJTIwJTIwJTIwJTIwc2gubWFudWFsX2dyb3NzX3dlaWdodCUyQyUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudF9hcGkuZ2V0X29wZXJhdGlvbmFsX2dyb3NzX3dlaWdodCUyOHNoLnNoaXBtZW50X2lkJTJDJTIwc2gudW9tX2Zvcl93ZWlnaHQlMkMlMjAlMjdGQUxTRSUyNyUyOSUyMEdST1NTX1dJRUdIVCUyQyUwRCUwQSUyMCUyMCUyMCUyMC0taWZzYXBwLnNoaXBtZW50X2FwaS5nZXRfb3BlcmF0aW9uYWxfZ3Jvc3Nfd2VpZ2h0JTI4c2guc2hpcG1lbnRfaWQlMkMlMjBzaC51b21fZm9yX3dlaWdodCUyQyUyMCUyN1RSVUUlMjclMjklMkMlMEQlMEElMjAlMjAlMjAlMjBzaC53ZWlnaHRfY2FwYWNpdHklMkMlMEQlMEElMjAlMjAlMjAlMjBzaC5VT01fRk9SX1dFSUdIVCUyQyUwRCUwQSUyMCUyMCUyMCUyMCUyOHNlbGVjdCUyMGZuZF91c2VyX2FwaS5HZXRfRGVzY3JpcHRpb24lMjh1c2VybmFtZSUyOSUyMCUwRCUwQWZyb20lMjBJRlNBUFAuaGlzdG9yeV9sb2clMjBobCUwRCUwQXdoZXJlJTIwaGwubHVfbmFtZSUyMCUzRCUyMCUyN1NoaXBtZW50JTI3JTBEJTBBJTIwYW5kJTIwaGwubW9kdWxlJTIwJTNEJTIwJTI3U0hQTU5UJTI3JTIwJTBEJTBBYW5kJTIwaGlzdG9yeV90eXBlX2RiJTIwJTNEJTIwJTI3MSUyNyUwRCUwQWFuZCUyMHJlcGxhY2UlMjhyZXBsYWNlJTI4aGwua2V5cyUyQyUyMCUyN1NISVBNRU5UX0lEJTNEJTI3JTJDJTIwJTI3JTI3JTI5JTJDJTIwJTI3JTVFJTI3JTJDJTI3JTI3JTI5JTIwJTNEJTIwc2guUEFSRU5UX0NPTlNPTF9TSElQTUVOVF9JRCUwRCUwQWFuZCUyMHJvd251bSUyMCUzRCUyMDElMEQlMEElMjklMjBjcmVhdG9yJTBEJTBBJTIwJTIwJTIwJTIwJTIwJTIwJTBEJTBBRlJPTSUwRCUwQSUyMCUyMCUyMCUyMGlmc2FwcC5zaGlwbWVudCUyMHNoJTJDaWZzYXBwLnNoaXBtZW50X2xpbmUlMjBzbCUwRCUwQSUyMCUyMCUyMCUyMHdoZXJlJTBEJTBBc2wuc2hpcG1lbnRfaWQlM0RzaC5zaGlwbWVudF9pZCUwRCUwQWFuZCUyMHNoLnN0YXRlJTIwJTNDJTNFJTI3Q2xvc2VkJTI3JTBEJTBBYW5kJTIwc2guUEFSRU5UX0NPTlNPTF9TSElQTUVOVF9JRCUyMGlzJTIwbm90JTIwbnVsbCZRdWlja1JlcG9ydFRpdGxlPVNoaXBtZW50c19jb25zX1BsYW5uZWQmQ29tbWVudHM9JlJvd1R5cGU9&amp;COMPANY=1180">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="15ce6d17-3075-46a5-a6bd-0f7414ab750c" InformativeScreenshot="715b2f78389d2f11bb631114fc87055e" Selector="&lt;wnd ctrlname='tsContainer' /&gt;&lt;wnd ctrlname='nonFlickerPanel' /&gt;&lt;wnd ctrlname='splitContainerOuter' /&gt;&lt;wnd ctrlname='addressBar' /&gt;&lt;wnd ctrlname='comboBoxAddress' /&gt;&lt;wnd aaname='Address:' cls='Edit' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -1065,7 +1062,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey 'Edit'" sap:VirtualizedContainerService.HintSize="358,162" sap2010:WorkflowViewState.IdRef="SendHotkey_3938" Key="enter" KeyModifiers="None" SpecialKey="True">
+                        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey 'Edit'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="358.4,154.4" sap2010:WorkflowViewState.IdRef="SendHotkey_3938" Key="enter" KeyModifiers="None" SendWindowMessages="{x:Null}" SpecialKey="True">
                           <ui:SendHotkey.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="24643903-ae9c-4b55-aa70-559a4da3ec0a" InformativeScreenshot="c481081ec1b9e488ec85f5da11e6fa23" Selector="&lt;wnd ctrlname='tsContainer' /&gt;&lt;wnd ctrlname='nonFlickerPanel' /&gt;&lt;wnd ctrlname='splitContainerOuter' /&gt;&lt;wnd ctrlname='addressBar' /&gt;&lt;wnd ctrlname='comboBoxAddress' /&gt;&lt;wnd aaname='Address:' cls='Edit' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -1077,8 +1074,8 @@
                             </ui:Target>
                           </ui:SendHotkey.Target>
                         </ui:SendHotkey>
-                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_774" />
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'cell  Row 1 Column 0'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3053" KeyModifiers="None" MouseButton="BTN_RIGHT">
+                        <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="358.4,90.4" sap2010:WorkflowViewState.IdRef="Delay_774" />
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'cell  Row 1 Column 0'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3053" KeyModifiers="None" MouseButton="BTN_RIGHT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1093,8 +1090,8 @@
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c157916a-7e01-4a0d-8021-41922faef515" InformativeScreenshot="4ffd5f85a08ffeff901ddbd5b3faa293" Selector="&lt;wnd ctrlname='tsContainer' /&gt;&lt;wnd ctrlname='nonFlickerPanel' /&gt;&lt;wnd ctrlname='splitContainerOuter' /&gt;&lt;wnd ctrlname='panelMainSplitterContainer' /&gt;&lt;wnd ctrlname='panelRightArea' /&gt;&lt;wnd ctrlname='panelFeatureAndRibbonHeader' /&gt;&lt;wnd ctrlname='splitContainerFeatureAndRibbonHeader' /&gt;&lt;wnd ctrlname='fndSplitContainerFeatureAndRibbonBody' /&gt;&lt;wnd ctrlname='fndSplitContainerDockedRecordSelector' /&gt;&lt;wnd ctrlname='ftContainer1' /&gt;&lt;wnd ctrlname='tbwQuickReport' /&gt;&lt;wnd ctrlname='tbwQuickReport' /&gt;&lt;wnd ctrlname='ChildTableWindow' /&gt;&lt;wnd ctrlname='mainGrid' /&gt;&lt;ctrl name='FlexGrid' role='table' /&gt;&lt;ctrl name='Row 1' role='row' /&gt;&lt;ctrl name='Row 1 Column 0' role='cell' /&gt;" TimeoutMS="99999999" WaitForReady="COMPLETE" />
                           </ui:Click.Target>
                         </ui:Click>
-                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_775" />
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item  Edit'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3054" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="358,90" sap2010:WorkflowViewState.IdRef="Delay_775" />
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'menu item  Edit'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3054" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1116,7 +1113,7 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item  Excel'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3055" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'menu item  Excel'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3055" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1138,8 +1135,8 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="358,97" sap2010:WorkflowViewState.IdRef="Delay_776" />
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.BUTTON.a...'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3056" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="358,90" sap2010:WorkflowViewState.IdRef="Delay_776" />
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'WindowsForms10.BUTTON.a...'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3056" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1161,7 +1158,7 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'Edit'" sap:VirtualizedContainerService.HintSize="358,144" sap2010:WorkflowViewState.IdRef="TypeInto_1241" Text="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\IFS Shipment report.csv">
+                        <ui:TypeInto Activate="True" AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DeselectAfter="{x:Null}" DisplayName="Type Into 'Edit'" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="358,135" sap2010:WorkflowViewState.IdRef="TypeInto_1241" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Text="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\IFS Shipment report.csv">
                           <ui:TypeInto.Target>
                             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="04a67363-fda7-4444-b5a4-2bf3b1611113" InformativeScreenshot="68b3c8f67cba97545ce229f927564c40" Selector="&lt;wnd app='ifs.fnd.explorer.exe' cls='#32770' title='Save As' /&gt;&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;">
                               <ui:Target.TimeoutMS>
@@ -1173,7 +1170,7 @@
                             </ui:Target>
                           </ui:TypeInto.Target>
                         </ui:TypeInto>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3057" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3057" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1195,7 +1192,7 @@
                             </ui:Target>
                           </ui:Click.Target>
                         </ui:Click>
-                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="Click_3058" KeyModifiers="None" MouseButton="BTN_LEFT">
+                        <ui:Click AlterIfDisabled="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="Click_3058" KeyModifiers="None" MouseButton="BTN_LEFT" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}">
                           <ui:Click.CursorPosition>
                             <ui:CursorPosition Position="Center">
                               <ui:CursorPosition.OffsetX>
@@ -1228,7 +1225,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:OpenBrowser>
-        <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="596,61" sap2010:WorkflowViewState.IdRef="Delay_777">
+        <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="597,52" sap2010:WorkflowViewState.IdRef="Delay_777">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1236,27 +1233,27 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </Delay>
-        <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" Window="{x:Null}" ContinueOnError="True" DisplayName="Attach Window 'ifs.fnd.explorer.exe Ou...'" sap:VirtualizedContainerService.HintSize="596,61" sap2010:WorkflowViewState.IdRef="WindowScope_694" InformativeScreenshot="7fb6e1f53e53f3e7919e06ee03b89950" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='CancelOutputChannelDialog' /&gt;" TimeoutMS="10000">
+        <ui:WindowScope ApplicationWindow="{x:Null}" ContinueOnError="True" DisplayName="Attach Window 'ifs.fnd.explorer.exe Ou...'" sap:VirtualizedContainerService.HintSize="597,52" sap2010:WorkflowViewState.IdRef="WindowScope_694" InformativeScreenshot="7fb6e1f53e53f3e7919e06ee03b89950" SearchScope="{x:Null}" Selector="&lt;wnd app='ifs.fnd.explorer.exe' ctrlname='CancelOutputChannelDialog' /&gt;" TimeoutMS="10000" Window="{x:Null}">
           <ui:WindowScope.Body>
             <ActivityAction x:TypeArguments="x:Object">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
               </ActivityAction.Argument>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,627" sap2010:WorkflowViewState.IdRef="Sequence_2836">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="478,598" sap2010:WorkflowViewState.IdRef="Sequence_2836">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[RetrievingData=True or RetrievingData2=True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,537" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_870">
+                <ui:InterruptibleDoWhile Condition="[RetrievingData=True or RetrievingData2=True]" CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="436,508" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_870" MaxIterations="{x:Null}">
                   <ui:InterruptibleDoWhile.Body>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,362" sap2010:WorkflowViewState.IdRef="Sequence_2835">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,342" sap2010:WorkflowViewState.IdRef="Sequence_2835">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:UiElementExists DisplayName="Element Exists 'ifs.fnd.explorer.exe Ou...'" Exists="[RetrievingData]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="UiElementExists_663">
+                      <ui:UiElementExists ContinueOnError="{x:Null}" DisplayName="Element Exists 'ifs.fnd.explorer.exe Ou...'" Exists="[RetrievingData]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="UiElementExists_663" Result="{x:Null}">
                         <ui:UiElementExists.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="8d1d64fc-1ca1-4cbd-b691-9942c39c622b" InformativeScreenshot="1497aa16b6273b670f5d5442181932c9" TimeoutMS="5">
                             <ui:Target.WaitForReady>
@@ -1265,7 +1262,7 @@
                           </ui:Target>
                         </ui:UiElementExists.Target>
                       </ui:UiElementExists>
-                      <ui:ImageFound DisplayName="Image Exists 'snippingtool.exe Snippi...'" Found="[RetrievingData2]" sap:VirtualizedContainerService.HintSize="358,116" sap2010:WorkflowViewState.IdRef="ImageFound_662">
+                      <ui:ImageFound ContinueOnError="{x:Null}" DisplayName="Image Exists 'snippingtool.exe Snippi...'" Found="[RetrievingData2]" sap:VirtualizedContainerService.HintSize="358,107" sap2010:WorkflowViewState.IdRef="ImageFound_662" Result="{x:Null}">
                         <ui:ImageFound.Image>
                           <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAALYAAAAOCAYAAACCaeYcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMASURBVGhD7ViBccMgDPRcHoh5PE2WyTAUIQRCSIAdLk1T/51bg5AQrwfcbv7GjS9ELeyH89u25Wc/nsnwSXj6Yy85bvsRegAP77bd/27KV3MAPxd+0jtbX3hyHar60HgdDxfGuN6IM2Dreh5+X8XzylgCRdiRND4JCmhO3KtENYgTidh8Va/Qd8T2qhxewdUcwI8LW4kR187EnNetAMbuzrt9FR+ruH1fjZKwUcTNBpdkmnjHwo0cM95Hmo2rOYDfQNhw8OTbqY/nsccDiX6/jlXcvq9GKGxTwCAmSkQmRW34Xa5NvP6S7YEnbHWdnorDMNxkvTmDFa7mJnbyOcoV3+Sp2gJiPhRzIMohwG8UA/pnblBWs3hy882QYvfqMqyZzA8PHOKIqG35xvzbPhar4pQfYmmcWgt9/iJs9TTgp6RcEG9rtjARxYwJ98ZaNgYzR4KYM35aaRtBzhd8iI3KZ2RjeQYbEi36pwF+Yl72lAKXIpY+gYonJvKIFNusS8+mvWM+/c1m+QKkja1Ly02rBbwrZCw4seU7QLZh/isbhMHMkTDIIZKBoih/S5zJhbVjLhQrPXFx0iehGq+tAfy4sJUYHCmeUs9gqj8/oF0K38a262LZ2HuvJmf5VmJNaSZxITfXiW/sTvCuDcDjn4nDYeSY0YlbrWPBZjULKn1mAX4WzzpqwRLAl8TEHyt2ry6Wjb1bPFzhW4k1dxgiIh9hrURJEnYAP94jwLn9lslcxvG9hJlvs9DZOALpFMi+gBBb/68Ia4Pf8IoF8PbIpl3B0mcW4Ef8GDHCt2/pQw6b+fk6M6RArbqMbBovE3mc4pvV1pwfINsIflsVYQOScOipBATgdueq4LC7sB+ccGLncBc1sabjKIgLTmPgyYXsLR4LgOP5v8F6Pj1bgMyDrbv4zAL8BsKO/XK+GsBdI7KAcrpjbL0uYxuGlvnVeaGPxXcYregkx6o4lXMY7UqzxKEU9jLIRG58Bnp1+a6a3cL+V7iF/SJuYX8mbmHfuPGH4f0PlxTLptziWa0AAAAASUVORK5CYII=" />
                         </ui:ImageFound.Image>
@@ -1293,7 +1290,7 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ui:WindowScope>
-        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="596,142" sap2010:WorkflowViewState.IdRef="SendHotkey_3939" Key="d" KeyModifiers="Win">
+        <ui:SendHotkey Activate="True" ClickBeforeTyping="{x:Null}" ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" DisplayName="Send Hotkey" EmptyField="{x:Null}" sap:VirtualizedContainerService.HintSize="597,133" sap2010:WorkflowViewState.IdRef="SendHotkey_3939" Key="d" KeyModifiers="Win" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}">
           <ui:SendHotkey.Target>
             <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="6560315c-ea51-447b-97c7-a0d24f687b60">
               <ui:Target.TimeoutMS>
@@ -1305,34 +1302,34 @@
             </ui:Target>
           </ui:SendHotkey.Target>
         </ui:SendHotkey>
-        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="596,1709" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+        <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="597.6,1639.2" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
           <ueab:ExcelProcessScopeX.Body>
             <ActivityAction x:TypeArguments="ui:IExcelProcess">
               <ActivityAction.Argument>
                 <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
               </ActivityAction.Argument>
-              <Sequence sap:VirtualizedContainerService.HintSize="562,1613" sap2010:WorkflowViewState.IdRef="Sequence_2846">
+              <Sequence sap:VirtualizedContainerService.HintSize="564,1552.8" sap2010:WorkflowViewState.IdRef="Sequence_2846">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="520,1523" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" ResizeWindow="None" WorkbookPath="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\plannedmainmorning.xlsm">
+                <ueab:ExcelApplicationCard ReadFormatting="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" EditPassword="{x:Null}" sap:VirtualizedContainerService.HintSize="520.8,1463.2" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" Password="{x:Null}" ResizeWindow="None" TemplatePath="{x:Null}" WorkbookPath="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\plannedmainmorning.xlsm">
                   <ueab:ExcelApplicationCard.Body>
                     <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="IFSOB" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1245" sap2010:WorkflowViewState.IdRef="Sequence_2845">
+                      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="487.2,1193.6" sap2010:WorkflowViewState.IdRef="Sequence_2845">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="444,97" sap2010:WorkflowViewState.IdRef="Delay_778" />
-                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="444,188" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InScope="[IFSOB]" ScopeIdentifier="IFSOB" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V3" />
-                        <ueab:RefreshDataConnectionsX DisplayName="Refresh Excel Data Connections" sap:VirtualizedContainerService.HintSize="444,99" sap2010:WorkflowViewState.IdRef="RefreshDataConnectionsX_1" Workbook="[IFSOB]" />
-                        <ueab:ExecuteMacroX Result="{x:Null}" DisplayName="Run Spreadsheet Macro" sap:VirtualizedContainerService.HintSize="444,261" sap2010:WorkflowViewState.IdRef="ExecuteMacroX_1" MacroName="DatesPlanned" Workbook="[IFSOB]">
+                        <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="443,90" sap2010:WorkflowViewState.IdRef="Delay_778" />
+                        <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayBetweenShortcuts="{x:Null}" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="444,179" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InScope="[IFSOB]" InUiElement="{x:Null}" OutUiElement="{x:Null}" ScopeIdentifier="IFSOB" Shortcuts="[d(hk)][k(esc)][u(hk)]" ShortcutsArgument="{x:Null}" Timeout="{x:Null}" Version="V3" />
+                        <ueab:RefreshDataConnectionsX DisplayName="Refresh Excel Data Connections" sap:VirtualizedContainerService.HintSize="444,90" sap2010:WorkflowViewState.IdRef="RefreshDataConnectionsX_1" Workbook="[IFSOB]" />
+                        <ueab:ExecuteMacroX Result="{x:Null}" DisplayName="Run Spreadsheet Macro" sap:VirtualizedContainerService.HintSize="444,252" sap2010:WorkflowViewState.IdRef="ExecuteMacroX_1" MacroName="DatesPlanned" Workbook="[IFSOB]">
                           <ueab:ExecuteMacroX.Body>
                             <ActivityAction>
                               <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_2847">
@@ -1345,8 +1342,8 @@
                             </ActivityAction>
                           </ueab:ExecuteMacroX.Body>
                         </ueab:ExecuteMacroX>
-                        <ueab:SaveExcelFileX DisplayName="Save Excel File" sap:VirtualizedContainerService.HintSize="444,94" sap2010:WorkflowViewState.IdRef="SaveExcelFileX_1" Workbook="[IFSOB]" />
-                        <ueab:SaveExcelFileAsX DisplayName="Save Excel File As" FilePath="[&quot;C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\planned &quot;&amp;DateTime.Now.ToString(&quot;MMyyyy&quot;)&amp;&quot; morning.xlsm&quot;]" sap:VirtualizedContainerService.HintSize="444,216" sap2010:WorkflowViewState.IdRef="SaveExcelFileAsX_1" SaveAsFileType="MacroEnabledWorkbook" Workbook="[IFSOB]" />
+                        <ueab:SaveExcelFileX DisplayName="Save Excel File" sap:VirtualizedContainerService.HintSize="444,85" sap2010:WorkflowViewState.IdRef="SaveExcelFileX_1" Workbook="[IFSOB]" />
+                        <ueab:SaveExcelFileAsX DisplayName="Save Excel File As" FilePath="[&quot;C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\planned &quot;&amp;DateTime.Now.ToString(&quot;MMyyyy&quot;)&amp;&quot; morning.xlsm&quot;]" sap:VirtualizedContainerService.HintSize="444,208.8" sap2010:WorkflowViewState.IdRef="SaveExcelFileAsX_1" SaveAsFileType="MacroEnabledWorkbook" Workbook="[IFSOB]" />
                       </Sequence>
                     </ActivityAction>
                   </ueab:ExcelApplicationCard.Body>
@@ -1360,19 +1357,19 @@
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
         </ueab:ExcelProcessScopeX>
-        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="596,142" sap2010:WorkflowViewState.IdRef="KillProcess_439" ProcessName="Ifs.Fnd.Explorer" />
-        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="596,142" sap2010:WorkflowViewState.IdRef="KillProcess_437" ProcessName="msedge" />
+        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="597.6,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_439" Process="{x:Null}" ProcessName="Ifs.Fnd.Explorer" />
+        <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="597.6,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_437" Process="{x:Null}" ProcessName="msedge" />
       </Sequence>
     </Sequence>
-    <Sequence DisplayName="Send Igor Mail" sap:VirtualizedContainerService.HintSize="720,543" sap2010:WorkflowViewState.IdRef="Sequence_2842">
+    <Sequence DisplayName="Send Igor Mail" sap:VirtualizedContainerService.HintSize="722.4,523.2" sap2010:WorkflowViewState.IdRef="Sequence_2842">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="338,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_154" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
-      <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good morning everyone,&#xA;&#xA;In the attachment you can find the current status of today’s shipment report.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="anna.wieczorek@praesidiad.com; bob.ohagan@praesidiad.com; michael.doering@praesidiad.com; michael.dixon@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,292" sap2010:WorkflowViewState.IdRef="SendMail_11" IgnoreCRL="False" IsBodyHtml="False" Name="Daily Shipment Report" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily Shipment Report Morning &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.willigenburg@praesidiad.com; igor.talarczyk@praesidiad.com; alicja.kordaczka-matysiak@praesidiad.com; michalina.pietrek@praesidiad.com; samuel.read@praesidiad.com; corinne.boulle@praesidiad.com; geoffrey.verheyen@praesidiad.com; bianca.verhulst@praesidiad.com; karolina.sidoruk@praesidiad.com; koen.vercruysse@praesidiad.com; xymena.dubiel@praesidiad.com; maria.wilczek@praesidiad.com; marija.sokol@praesidiad.com; heinz.bongartz@praesidiad.com; natalia.smolin@praesidiad.com; iwona.paczko@praesidiad.com; Piyush.Jutha@praesidiad.com; Peter.Rudd@praesidiad.com; Kamlesh.Mistry@praesidiad.com; rino.diegidio@praesidiad.com; frankie.descamps@praesidiad.com;dwayne.david@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com; anna.michnik@praesidiad.com">
+      <p:GetSecureCredential CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="337.6,80.8" sap2010:WorkflowViewState.IdRef="GetSecureCredential_154" Password="[Setpwd]" PersistanceType="Enterprise" Result="{x:Null}" Target="MailServer" Username="{x:Null}" />
+      <ui:SendMail AttachmentsCollection="{x:Null}" Bcc="{x:Null}" Body="Good morning everyone,&#xA;&#xA;In the attachment you can find the current status of today’s shipment report.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="bob.ohagan@praesidiad.com; michael.doering@praesidiad.com; michael.dixon@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="337.6,290.4" sap2010:WorkflowViewState.IdRef="SendMail_11" IgnoreCRL="False" IsBodyHtml="False" MailMessage="{x:Null}" Name="Daily Shipment Report" Password="{x:Null}" Port="25" ReplyTo="{x:Null}" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily Shipment Report Morning &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" TimeoutMS="{x:Null}" To="Marco.willigenburg@praesidiad.com; igor.talarczyk@praesidiad.com; alicja.kordaczka-matysiak@praesidiad.com; michalina.pietrek@praesidiad.com; samuel.read@praesidiad.com; corinne.boulle@praesidiad.com; geoffrey.verheyen@praesidiad.com; bianca.verhulst@praesidiad.com; karolina.sidoruk@praesidiad.com; koen.vercruysse@praesidiad.com; xymena.dubiel@praesidiad.com; marija.sokol@praesidiad.com; heinz.bongartz@praesidiad.com; natalia.smolin@praesidiad.com; iwona.paczko@praesidiad.com; Piyush.Jutha@praesidiad.com; Peter.Rudd@praesidiad.com; Kamlesh.Mistry@praesidiad.com; rino.diegidio@praesidiad.com; frankie.descamps@praesidiad.com;dwayne.david@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;jordan.townend@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; inez.leszczynska@praesidiad.com; jordan.townend@praesidiad.com; james.selby@praesidiad.com; zuzanna.sarzynska@praesidiad.com; anna.michnik@praesidiad.com" UseOAuth="{x:Null}">
         <ui:SendMail.Files>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">["C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\SHP Report Input\planned "&amp;DateTime.Now.ToString("MMyyyy")&amp;" morning.xlsm"]</InArgument>

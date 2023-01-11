@@ -16,7 +16,7 @@
     <x:Property Name="SavingZGUTCC" Type="InOutArgument(x:Boolean)" />
     <x:Property Name="ExcelPOLoad" Type="InOutArgument(x:Boolean)" />
   </x:Members>
-  <sap:VirtualizedContainerService.HintSize>1083,8636</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1085,41398</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="78">
@@ -126,7 +126,7 @@
       <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="OB SAP" sap:VirtualizedContainerService.HintSize="716,8571" sap2010:WorkflowViewState.IdRef="Sequence_320">
+  <Sequence DisplayName="OB SAP" sap:VirtualizedContainerService.HintSize="935,41333" sap2010:WorkflowViewState.IdRef="Sequence_320">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="ExcelPOLoad2" />
     </Sequence.Variables>
@@ -136,16 +136,16 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="674,61" sap2010:WorkflowViewState.IdRef="RetryScope_7">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="893,52" sap2010:WorkflowViewState.IdRef="RetryScope_7">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
-          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="504,663" sap2010:WorkflowViewState.IdRef="Sequence_258">
+          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="504,623" sap2010:WorkflowViewState.IdRef="Sequence_258">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="Get Inv" sap:VirtualizedContainerService.HintSize="462,573" sap2010:WorkflowViewState.IdRef="Sequence_257">
+            <Sequence DisplayName="Get Inv" sap:VirtualizedContainerService.HintSize="462,535" sap2010:WorkflowViewState.IdRef="Sequence_257">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:Boolean" Name="OpenOrderDataLoaded" />
                 <Variable x:TypeArguments="x:Boolean" Name="OOExcelDataLoaded" />
@@ -157,7 +157,7 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="MTS" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_235">
+              <Sequence DisplayName="MTS" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_235">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -962,7 +962,7 @@
                   </ui:SendHotkey.Target>
                 </ui:SendHotkey>
               </Sequence>
-              <Sequence DisplayName="SUBCO" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_244">
+              <Sequence DisplayName="SUBCO" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_244">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1723,7 +1723,7 @@
                   </ui:SendHotkey.Target>
                 </ui:SendHotkey>
               </Sequence>
-              <Sequence DisplayName="MPMARC002C" sap:VirtualizedContainerService.HintSize="400,90" sap2010:WorkflowViewState.IdRef="Sequence_256">
+              <Sequence DisplayName="MPMARC002C" sap:VirtualizedContainerService.HintSize="400,81" sap2010:WorkflowViewState.IdRef="Sequence_256">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2567,7 +2567,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:RetryScope>
-    <Sequence DisplayName="excelfile" sap:VirtualizedContainerService.HintSize="674,8019" sap2010:WorkflowViewState.IdRef="Sequence_269">
+    <Sequence DisplayName="excelfile" sap:VirtualizedContainerService.HintSize="893,7961" sap2010:WorkflowViewState.IdRef="Sequence_269">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="variable2" />
       </Sequence.Variables>
@@ -2577,7 +2577,7 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="612,142" sap2010:WorkflowViewState.IdRef="SendHotkey_352" Key="d" KeyModifiers="Win">
+      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="612,133" sap2010:WorkflowViewState.IdRef="SendHotkey_352" Key="d" KeyModifiers="Win">
         <ui:SendHotkey.Target>
           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="7baaf690-b0ac-4c0f-80a0-8f575803a8bf">
             <ui:Target.TimeoutMS>
@@ -2589,8 +2589,8 @@
           </ui:Target>
         </ui:SendHotkey.Target>
       </ui:SendHotkey>
-      <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SAP Front End\SAP Logon" sap:VirtualizedContainerService.HintSize="612,97" sap2010:WorkflowViewState.IdRef="StartProcess_27" />
-      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[SAPOpen&lt;&gt;True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="612,381" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_70">
+      <ui:StartProcess Arguments="{x:Null}" WorkingDirectory="{x:Null}" DisplayName="Start Process" FileName="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\SAP Front End\SAP Logon" sap:VirtualizedContainerService.HintSize="612,88" sap2010:WorkflowViewState.IdRef="StartProcess_27" />
+      <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[SAPOpen&lt;&gt;True]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="612,372" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_70">
         <ui:InterruptibleDoWhile.Body>
           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="400,206" sap2010:WorkflowViewState.IdRef="Sequence_259">
             <sap:WorkflowViewStateService.ViewState>
@@ -2799,7 +2799,7 @@
         </If.Then>
       </If>
       <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="612,142" sap2010:WorkflowViewState.IdRef="KillProcess_71" ProcessName="EXCEL" />
-      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="612,2686" sap2010:WorkflowViewState.IdRef="Sequence_266">
+      <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="612,2675" sap2010:WorkflowViewState.IdRef="Sequence_266">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -3037,7 +3037,7 @@
           </ui:WindowScope.Body>
         </ui:WindowScope>
       </Sequence>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'excel.exe excelfile'" sap:VirtualizedContainerService.HintSize="612,1899" sap2010:WorkflowViewState.IdRef="WindowScope_65" InformativeScreenshot="819ee19c26b67873cc6c37cb0db42189" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='excelfile - Excel' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'excel.exe excelfile'" sap:VirtualizedContainerService.HintSize="612,1890" sap2010:WorkflowViewState.IdRef="WindowScope_65" InformativeScreenshot="819ee19c26b67873cc6c37cb0db42189" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='excelfile - Excel' /&gt;">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
@@ -3189,24 +3189,24 @@
         </ui:WindowScope.Body>
       </ui:WindowScope>
     </Sequence>
-    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="674,61" sap2010:WorkflowViewState.IdRef="RetryScope_8">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="893,32910" sap2010:WorkflowViewState.IdRef="RetryScope_8">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
-          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="851,32379" sap2010:WorkflowViewState.IdRef="Sequence_308">
+          <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="851,32735" sap2010:WorkflowViewState.IdRef="Sequence_308">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Sequence DisplayName="SE16N" sap:VirtualizedContainerService.HintSize="809,32311" sap2010:WorkflowViewState.IdRef="Sequence_307">
+            <Sequence DisplayName="SE16N" sap:VirtualizedContainerService.HintSize="809,32647" sap2010:WorkflowViewState.IdRef="Sequence_307">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="747,142" sap2010:WorkflowViewState.IdRef="KillProcess_62" ProcessName="EXCEL" />
-              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="747,142" sap2010:WorkflowViewState.IdRef="SendHotkey_358" Key="d" KeyModifiers="Win">
+              <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="747,133" sap2010:WorkflowViewState.IdRef="KillProcess_62" ProcessName="EXCEL" />
+              <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SpecialKey="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="747,133" sap2010:WorkflowViewState.IdRef="SendHotkey_358" Key="d" KeyModifiers="Win">
                 <ui:SendHotkey.Target>
                   <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0a8292a0-9b00-4bb6-b8f5-47d60a785e34">
                     <ui:Target.TimeoutMS>
@@ -3218,19 +3218,19 @@
                   </ui:Target>
                 </ui:SendHotkey.Target>
               </ui:SendHotkey>
-              <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="747,1316" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_15">
+              <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="747,1296" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_15">
                 <ueab:ExcelProcessScopeX.Body>
                   <ActivityAction x:TypeArguments="ui:IExcelProcess">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="562,1220" sap2010:WorkflowViewState.IdRef="Sequence_272">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="562,1209" sap2010:WorkflowViewState.IdRef="Sequence_272">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="520,1130" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_17" ResizeWindow="None" WorkbookPath="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\excelfilemod.xlsm">
+                      <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" AutoSave="False" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="520,1121" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_17" ResizeWindow="None" WorkbookPath="C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\excelfilemod.xlsm">
                         <ueab:ExcelApplicationCard.Body>
                           <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
                             <ActivityAction.Argument>
@@ -3278,7 +3278,7 @@
                   </ui:Target>
                 </ui:SendHotkey.Target>
               </ui:SendHotkey>
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="747,30287" sap2010:WorkflowViewState.IdRef="Sequence_306">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="747,30672" sap2010:WorkflowViewState.IdRef="Sequence_306">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -4221,7 +4221,7 @@
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </ui:WindowScope>
-                <Sequence DisplayName="POOrderbook" sap:VirtualizedContainerService.HintSize="685,21990" sap2010:WorkflowViewState.IdRef="Sequence_305">
+                <Sequence DisplayName="POOrderbook" sap:VirtualizedContainerService.HintSize="685,21979" sap2010:WorkflowViewState.IdRef="Sequence_305">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -5895,7 +5895,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:RetryScope>
-    <Sequence DisplayName="RefreshFile" sap:VirtualizedContainerService.HintSize="674,90" sap2010:WorkflowViewState.IdRef="Sequence_311">
+    <Sequence DisplayName="RefreshFile" sap:VirtualizedContainerService.HintSize="893,81" sap2010:WorkflowViewState.IdRef="Sequence_311">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -5954,22 +5954,22 @@
       </ueab:ExcelProcessScopeX>
       <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="586,142" sap2010:WorkflowViewState.IdRef="KillProcess_79" ProcessName="EXCEL" />
     </Sequence>
-    <Sequence DisplayName="Send Mail" sap:VirtualizedContainerService.HintSize="674,90" sap2010:WorkflowViewState.IdRef="Sequence_312">
+    <Sequence DisplayName="Send Mail" sap:VirtualizedContainerService.HintSize="400,869" sap2010:WorkflowViewState.IdRef="Sequence_312">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="338,89" sap2010:WorkflowViewState.IdRef="GetSecureCredential_23" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
-      <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="Anna.Wieczorek@praesidiad.com;Agata.Kaczmarczyk@praesidiad.com;Dawid.Stepien@praesidiad.com;Anna.Sorek@praesidiad.com;Maria.Wilczek@praesidiad.com;Dwayne.David@praesidiad.com;michalina.pietrek@praesidiad.com;Samuel.Read@praesidiad.com;Xymena.Dubiel@praesidiad.com;bob.ohagan@praesidiad.com;Joanna.Bugajska@praesidiad.com;Patrycja.Frankowska@praesidiad.com;Patrycja.Bochenek@praesidiad.com;fen.cosyns@praesidiad.com;jaroslaw.gruszka@praesidiad.com;maciej.kokocinski@praesidiad.com;Natalia.Smolin@praesidiad.com;frankie.descamps@praesidiad.com;beata.blaszczyk@praesidiad.com;Paulina.Bak@praesidiad.com;Aleksandra.Kosiorowska@praesidiad.com;heinz.bongartz@praesidiad.com;Roksana.Belzyt@praesidiad.com;piera.digiacomo@praesidiad.com;federica.canulli@praesidiad.com;rino.diegidio@praesidiad.com;carolina.ruiz@praesidiad.com;marija.sokol@praesidiad.com;eva.vlasakova@praesidiad.com;Alzbeta.Ondreasova@praesidiad.com;sumeet.rajpal@praesidiad.com;peter.rudd@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,292" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Name="Daily SAP Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily SAP OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.Willigenburg@praesidiad.com;Igor.Talarczyk@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;alex.lever@praesidiad.com;Piyush.Jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;zuzanna.robenek@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;wouter.goeminne@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; bernd.platvoetz@praesidiad.com; cenk.goksel@praesidiad.com">
+      <p:GetSecureCredential Username="{x:Null}" CredentialType="Generic" DisplayName="Get Secure Credentials" sap:VirtualizedContainerService.HintSize="338,80" sap2010:WorkflowViewState.IdRef="GetSecureCredential_23" Password="[Setpwd]" PersistanceType="Enterprise" Target="MailServer" />
+      <ui:SendMail Bcc="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" UseOAuth="{x:Null}" Body="Good day all,&#xA;&#xA;In the attachment you can find the current status of today’s orderbook file.&#xA;&#xA;If you will find any discrepancies, please let me know.&#xA;&#xA;Best Regards,&#xA;&#xA;Marco&#xA;" Cc="Anna.Sorek@praesidiad.com;Dwayne.David@praesidiad.com;michalina.pietrek@praesidiad.com;Samuel.Read@praesidiad.com;Xymena.Dubiel@praesidiad.com;bob.ohagan@praesidiad.com;Joanna.Bugajska@praesidiad.com;jaroslaw.gruszka@praesidiad.com;maciej.kokocinski@praesidiad.com;Natalia.Smolin@praesidiad.com;frankie.descamps@praesidiad.com;beata.blaszczyk@praesidiad.com;Paulina.Bak@praesidiad.com;heinz.bongartz@praesidiad.com;Roksana.Belzyt@praesidiad.com;piera.digiacomo@praesidiad.com;federica.canulli@praesidiad.com;rino.diegidio@praesidiad.com;carolina.ruiz@praesidiad.com;marija.sokol@praesidiad.com;eva.vlasakova@praesidiad.com;sumeet.rajpal@praesidiad.com;peter.rudd@praesidiad.com;magdalena.gwiazdowska@praesidiad.com;maciej.kokocinski@praesidiad.com;anna.lukaszewska@praesidiad.com;katarzyna.fatyga@praesidiad.com; patrick.peters@praesidiad.com" DisplayName="Send SMTP Mail Message" Email="ad\KTW.smtp2" EnableSSL="True" From="noreply@praesidiad.com" sap:VirtualizedContainerService.HintSize="338,283" sap2010:WorkflowViewState.IdRef="SendMail_1" IgnoreCRL="False" IsBodyHtml="False" Name="Daily SAP Orderbook" Port="25" SecureConnection="None" SecurePassword="[Setpwd]" Server="relay.ad.prd.one" Subject="[&quot;Daily SAP OB &quot;&amp;now.ToString(&quot;dd/MM/yyyy&quot;)]" To="Marco.Willigenburg@praesidiad.com;Igor.Talarczyk@praesidiad.com;ileana.metayer@praesidiad.com;koen.vercruysse@praesidiad.com;pawel.gornik@praesidiad.com;Piyush.Jutha@praesidiad.com;corinne.boulle@praesidiad.com;karolina.sidoruk@praesidiad.com;alicja.kordaczka-matysiak@praesidiad.com;joanna.bugajska@praesidiad.com;anna-marie.mccrarren@praesidiad.com;agnieszka.gehrich@praesidiad.com;wouter.goeminne@praesidiad.com;tijmen.vandenbovenkamp@praesidiad.com; bernd.platvoetz@praesidiad.com; cenk.goksel@praesidiad.com">
         <ui:SendMail.Files>
           <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
             <InArgument x:TypeArguments="x:String">["C:\Users\Marco.Willigenburg\OneDrive - Praesidiad Limited\OB\Archive\AllFiles\OB_"&amp;now.ToString("dd.MM.yyyy")&amp;".xlsm"]</InArgument>
           </scg:List>
         </ui:SendMail.Files>
       </ui:SendMail>
-      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="KillProcess_80" ProcessName="saplogon" />
+      <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,133" sap2010:WorkflowViewState.IdRef="KillProcess_80" ProcessName="saplogon" />
       <ui:KillProcess AppliesTo="{x:Null}" Process="{x:Null}" ContinueOnError="True" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="338,142" sap2010:WorkflowViewState.IdRef="KillProcess_81" ProcessName="EXCEL" />
     </Sequence>
   </Sequence>
