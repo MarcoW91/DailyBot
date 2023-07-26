@@ -1,0 +1,68 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Loading&Sequence_5",
+        "Username&Sequence_5",
+        "Password&Sequence_5",
+        "SAPOpen&Sequence_5",
+        "LoggedIn&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "VBAK.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SAPOpen&Sequence_5",
+        "LoggedIn&Sequence_5",
+        "Password&Sequence_5",
+        "Username&Sequence_5",
+        "Loading&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "VBAK-KTWLP061.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SAPOpen&Sequence_5",
+        "LoggedIn&Sequence_5",
+        "Password&Sequence_5",
+        "Username&Sequence_5",
+        "Loading&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "VBAK OrdersTop10.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SAPOpen&Sequence_5",
+        "LoggedIn&Sequence_5",
+        "Password&Sequence_5",
+        "Username&Sequence_5",
+        "Loading&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

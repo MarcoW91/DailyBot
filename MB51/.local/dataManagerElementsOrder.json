@@ -1,0 +1,66 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MAILAUDIENCE&Sequence_41",
+        "MAILAUDIENCECC&Sequence_41",
+        "SAPOpen&Sequence_1",
+        "Password&Sequence_1",
+        "Username&Sequence_1",
+        "LoggedIn&Sequence_1",
+        "SavingZTarget&Sequence_1",
+        "ZTargetExcel2&Sequence_1",
+        "DataZTargetLoad&Sequence_1",
+        "ZTargetExcel&Sequence_1",
+        "Loaded&Sequence_1",
+        "SavingFile&Sequence_1",
+        "Exists&Sequence_1",
+        "RetrievingData&Sequence_1",
+        "RetrievingData2&Sequence_1",
+        "RetrievingData3&Sequence_1",
+        "Setpwd&Sequence_1",
+        "variable1&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main(Autosaved).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "SAPOpen&Sequence_1",
+        "Password&Sequence_1",
+        "Username&Sequence_1",
+        "LoggedIn&Sequence_1",
+        "SavingZTarget&Sequence_1",
+        "ZTargetExcel2&Sequence_1",
+        "DataZTargetLoad&Sequence_1",
+        "ZTargetExcel&Sequence_1",
+        "Loaded&Sequence_1",
+        "SavingFile&Sequence_1",
+        "Exists&Sequence_1",
+        "RetrievingData&Sequence_1",
+        "RetrievingData2&Sequence_1",
+        "RetrievingData3&Sequence_1",
+        "Setpwd&Sequence_1",
+        "variable1&Sequence_4",
+        "MAILAUDIENCE&Sequence_37",
+        "MAILAUDIENCECC&Sequence_37"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

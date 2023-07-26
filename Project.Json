@@ -1,21 +1,22 @@
 {
   "name": "NewBot",
+  "projectId": "374d0b65-85e4-4a16-941a-e400fb108fae",
   "description": "Blank Process",
-  "main": "Inventory2.xaml",
+  "main": "MainBot1.xaml",
   "dependencies": {
     "UiPath.Activities.RuntimeGovernance": "1.1.6",
-    "UiPath.ComplexScenarios.Activities": "1.3.0",
-    "UiPath.ConnectionClient": "1.4.1",
+    "UiPath.ComplexScenarios.Activities": "1.4.0",
+    "UiPath.ConnectionClient": "1.4.3-20221214.2",
     "UiPath.Credentials.Activities": "[2.0.0]",
     "UiPath.Database.Activities": "[1.7.1]",
-    "UiPath.DocumentProcessing.Contracts": "1.17.1",
-    "UiPath.Excel.Activities": "[2.16.0]",
-    "UiPath.FormActivityLibrary": "2.0.2",
-    "UiPath.FormActivityLibrary.Contracts": "2.0.2",
-    "UiPath.Mail.Activities": "[1.18.1]",
-    "UiPath.Platform": "22.10.2",
-    "UiPath.System.Activities": "[22.10.3]",
-    "UiPath.UIAutomation.Activities": "[22.10.3]"
+    "UiPath.DocumentProcessing.Contracts": "1.22.0-preview",
+    "UiPath.Excel.Activities": "[2.21.0-preview]",
+    "UiPath.FormActivityLibrary": "2.0.5",
+    "UiPath.FormActivityLibrary.Contracts": "2.0.5",
+    "UiPath.Mail.Activities": "1.20.2",
+    "UiPath.Platform": "23.6.0",
+    "UiPath.System.Activities": "[23.6.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.6.2-preview]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -29,6 +30,7 @@
     "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
